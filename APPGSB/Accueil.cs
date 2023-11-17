@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace APPGSB
 {
-    public partial class Form1 : Form
+    public partial class Accueil : Form
     {
-        public Form1()
+        public Accueil()
         {
             InitializeComponent();
+        }
+
+        private void Accueil_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
