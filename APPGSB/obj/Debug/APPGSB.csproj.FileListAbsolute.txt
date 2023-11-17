@@ -1,0 +1,10 @@
+C:\Users\dias2\AP2GRP3\APPGSB\bin\Debug\APPGSB.exe.config
+C:\Users\dias2\AP2GRP3\APPGSB\bin\Debug\APPGSB.exe
+C:\Users\dias2\AP2GRP3\APPGSB\bin\Debug\APPGSB.pdb
+C:\Users\dias2\AP2GRP3\APPGSB\obj\Debug\APPGSB.csproj.AssemblyReference.cache
+C:\Users\dias2\AP2GRP3\APPGSB\obj\Debug\APPGSB.Accueil.resources
+C:\Users\dias2\AP2GRP3\APPGSB\obj\Debug\APPGSB.Properties.Resources.resources
+C:\Users\dias2\AP2GRP3\APPGSB\obj\Debug\APPGSB.csproj.GenerateResource.cache
+C:\Users\dias2\AP2GRP3\APPGSB\obj\Debug\APPGSB.csproj.CoreCompileInputs.cache
+C:\Users\dias2\AP2GRP3\APPGSB\obj\Debug\APPGSB.exe
+C:\Users\dias2\AP2GRP3\APPGSB\obj\Debug\APPGSB.pdb

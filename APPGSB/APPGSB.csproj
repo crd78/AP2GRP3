@@ -52,6 +52,12 @@
     <Compile Include="Accueil.Designer.cs">
       <DependentUpon>Accueil.cs</DependentUpon>
     </Compile>
+    <Compile Include="AjoutMedic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjoutMedic.Designer.cs">
+      <DependentUpon>AjoutMedic.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Accueil.resx">

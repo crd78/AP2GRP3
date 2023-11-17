@@ -19,6 +19,23 @@ namespace APPGSB
 
         private void Accueil_Load(object sender, EventArgs e)
         {
+            
+
+        }
+
+        private void ajoutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //ouvre la fenetre ajout medicament dans la fenetre accueil
+            // Créez une nouvelle instance de FormAjoutMedic
+            AjoutMedic ajoutMedicForm = new AjoutMedic();
+
+            // Définissez le formulaire parent comme AccueilForm
+            ajoutMedicForm.MdiParent = this;
+
+            // Affichez la nouvelle forme
+            ajoutMedicForm.Show();
+
+
 
         }
     }
