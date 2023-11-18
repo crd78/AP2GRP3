@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace APPGSB
 {
-    public partial class Form1 : Form
+    public partial class AjoutMedic : Form
     {
-        public Form1()
+        public AjoutMedic()
         {
             InitializeComponent();
         }
