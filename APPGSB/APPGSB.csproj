@@ -84,6 +84,9 @@
     <EmbeddedResource Include="Accueil.resx">
       <DependentUpon>Accueil.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AjoutMedic.resx">
+      <DependentUpon>AjoutMedic.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Bienvenue.resx">
       <DependentUpon>Bienvenue.cs</DependentUpon>
     </EmbeddedResource>
