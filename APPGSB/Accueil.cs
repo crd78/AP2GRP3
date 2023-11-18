@@ -17,11 +17,7 @@ namespace APPGSB
             InitializeComponent();
         }
 
-        private void Accueil_Load(object sender, EventArgs e)
-        {
-            
-
-        }
+      
 
         private void ajoutToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -37,6 +33,19 @@ namespace APPGSB
 
 
 
+        }
+
+        private void quitterToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+           
+            DialogResult result = MessageBox.Show("Êtes-vous sûr de vouloir quitter ?", "Confirmation de fermeture", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            
+            if (result == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+          
         }
     }
 }
