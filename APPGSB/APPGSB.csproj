@@ -73,16 +73,23 @@
     <Compile Include="AjoutMedic.Designer.cs">
       <DependentUpon>AjoutMedic.cs</DependentUpon>
     </Compile>
+    <Compile Include="bd.cs" />
     <Compile Include="Bienvenue.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Bienvenue.Designer.cs">
       <DependentUpon>Bienvenue.cs</DependentUpon>
     </Compile>
+    <Compile Include="famille.cs" />
+    <Compile Include="globale.cs" />
+    <Compile Include="medicament.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Accueil.resx">
       <DependentUpon>Accueil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AjoutMedic.resx">
+      <DependentUpon>AjoutMedic.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Bienvenue.resx">
       <DependentUpon>Bienvenue.cs</DependentUpon>
