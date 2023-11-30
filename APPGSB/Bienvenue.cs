@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SQL_Server_Test;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -28,6 +29,14 @@ namespace APPGSB
             Accueil accueilForm = new Accueil();
             accueilForm.Show();
             this.Hide();
+        }
+
+        private void Bienvenue_Load(object sender, EventArgs e)
+        {
+            globale.cnx = new System.Data.SqlClient.SqlConnection();
+            globale.cnx.ConnectionString = "Data Source=ROXSTRIXG17JC;Initial Catalog=GSB_gesAMM;Integrated Security=True;MultipleActiveResultSets=True";
+            globale.cnx.Open();
+            globale.listFamille = new List<famille>();
         }
     }
 }

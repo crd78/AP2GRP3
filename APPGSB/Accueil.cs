@@ -27,6 +27,7 @@ namespace APPGSB
 
             // Définissez le formulaire parent comme AccueilForm
             ajoutMedicForm.MdiParent = this;
+            ajoutMedicForm.WindowState = FormWindowState.Maximized;
 
             // Affichez la nouvelle forme
             ajoutMedicForm.Show();

@@ -9,3 +9,16 @@ C:\Users\dias2\AP2GRP3\APPGSB\obj\Debug\APPGSB.exe
 C:\Users\dias2\AP2GRP3\APPGSB\obj\Debug\APPGSB.pdb
 C:\Users\dias2\AP2GRP3\APPGSB\obj\Debug\APPGSB.Accueil.resources
 C:\Users\dias2\AP2GRP3\APPGSB\obj\Debug\APPGSB.Bienvenue.resources
+C:\Users\jffco\Desktop\AP2Groupe3\AP2GRP3\APPGSB\bin\Debug\APPGSB.exe.config
+C:\Users\jffco\Desktop\AP2Groupe3\AP2GRP3\APPGSB\bin\Debug\APPGSB.exe
+C:\Users\jffco\Desktop\AP2Groupe3\AP2GRP3\APPGSB\bin\Debug\APPGSB.pdb
+C:\Users\jffco\Desktop\AP2Groupe3\AP2GRP3\APPGSB\obj\Debug\APPGSB.csproj.AssemblyReference.cache
+C:\Users\jffco\Desktop\AP2Groupe3\AP2GRP3\APPGSB\obj\Debug\APPGSB.csproj.SuggestedBindingRedirects.cache
+C:\Users\jffco\Desktop\AP2Groupe3\AP2GRP3\APPGSB\obj\Debug\APPGSB.Accueil.resources
+C:\Users\jffco\Desktop\AP2Groupe3\AP2GRP3\APPGSB\obj\Debug\APPGSB.AjoutMedic.resources
+C:\Users\jffco\Desktop\AP2Groupe3\AP2GRP3\APPGSB\obj\Debug\APPGSB.Bienvenue.resources
+C:\Users\jffco\Desktop\AP2Groupe3\AP2GRP3\APPGSB\obj\Debug\APPGSB.Properties.Resources.resources
+C:\Users\jffco\Desktop\AP2Groupe3\AP2GRP3\APPGSB\obj\Debug\APPGSB.csproj.GenerateResource.cache
+C:\Users\jffco\Desktop\AP2Groupe3\AP2GRP3\APPGSB\obj\Debug\APPGSB.csproj.CoreCompileInputs.cache
+C:\Users\jffco\Desktop\AP2Groupe3\AP2GRP3\APPGSB\obj\Debug\APPGSB.exe
+C:\Users\jffco\Desktop\AP2Groupe3\AP2GRP3\APPGSB\obj\Debug\APPGSB.pdb
