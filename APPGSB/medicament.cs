@@ -25,5 +25,34 @@ namespace APPGSB
             this.contreIndication = contreIndication;
             this.prix = 0;
         }
+        public string getDepotLegal()
+        {
+            return this.depotLegal;
+        }
+        public string getNomCommercial()
+        {
+            return this.nomCommercial;
+        }
+        public string getFamille()
+        {
+            return this.codeFamille;
+        }
+        public string getComposition()
+        {
+            return this.composition;
+        }
+        public string getEffets()
+        {
+            return this.effets;
+        }
+        public string getContreIndication()
+        {
+            return this.contreIndication;
+        }
+        public int getPrix()
+        {
+            return this.prix;
+        }
+
     }
 }

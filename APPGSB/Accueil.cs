@@ -48,5 +48,19 @@ namespace APPGSB
             }
           
         }
+
+        private void enValidatiionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //ouvre la fenetre ajout medicament dans la fenetre accueil
+            // Créez une nouvelle instance de FormAjoutMedic
+            MedicEnVerif MedicEnVerifForm = new MedicEnVerif();
+
+            // Définissez le formulaire parent comme AccueilForm
+            MedicEnVerifForm.MdiParent = this;
+            MedicEnVerifForm.WindowState = FormWindowState.Maximized;
+
+            // Affichez la nouvelle forme
+            MedicEnVerifForm.Show();
+        }
     }
 }

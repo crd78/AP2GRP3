@@ -3,6 +3,8 @@ using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
+using System.Net.Mail;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -32,6 +34,48 @@ namespace SQL_Server_Test
                 globale.listFamille.Add(laFamille);
             }
         }
+        //fonction qui recuperer les medicament en verif de la base de données
+        public static void lireLesMedicaments()
+        {
+            // Vérifiez si globale.listMedicament est null et initialisez-le si nécessaire
+            if (globale.listMedicament == null)
+            {
+                globale.listMedicament = new List<medicament>();
+            }
+            else
+            {
+                // Si la liste existe déjà, effacez son contenu
+                globale.listMedicament.Clear();
+            }
+           
+
+            //objet SQLCommand pour définir la procédure stockée à utiliser
+            SqlCommand maRequete = new SqlCommand("prc_medicament", Connexion.cnx);
+            maRequete.CommandType = System.Data.CommandType.StoredProcedure;
+
+            // exécuter la procedure stockée dans un curseur 
+            SqlDataReader SqlExec = maRequete.ExecuteReader();
+
+            //boucle de lecture des clients avec ajout dans la collection
+            while (SqlExec.Read())
+            {
+                string depotLegal = SqlExec["MED_DEPOTLEGAL"].ToString();
+                string nomCommercial = SqlExec["MED_NOMCOMMERCIAL"].ToString();
+                string famille = SqlExec["FAM_LIBELLE"].ToString();
+                string composition = SqlExec["MED_COMPOSITION"].ToString();
+                string effets = SqlExec["MED_EFFETS"].ToString();
+                string contreindic = SqlExec["MED_CONTREINDIC"].ToString();
+
+
+                medicament leMedicament = new medicament(depotLegal, nomCommercial, famille, composition, effets, contreindic);
+
+                globale.listMedicament.Add(leMedicament);
+            }
+        }
+            
+
+       
+        
         public static Boolean ajouterMedicament(
         string depotLegal,
         string nomCommercial,

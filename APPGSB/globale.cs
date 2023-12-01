@@ -12,5 +12,7 @@ namespace SQL_Server_Test
     {
 
         public static List<famille> listFamille;
+        public static List<medicament> listMedicament;
+        
     }
 }
