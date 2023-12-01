@@ -67,6 +67,12 @@
     <Compile Include="Accueil.Designer.cs">
       <DependentUpon>Accueil.cs</DependentUpon>
     </Compile>
+    <Compile Include="AccueilJ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccueilJ.Designer.cs">
+      <DependentUpon>AccueilJ.cs</DependentUpon>
+    </Compile>
     <Compile Include="AjoutMedic.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +90,9 @@
     <EmbeddedResource Include="Accueil.resx">
       <DependentUpon>Accueil.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AccueilJ.resx">
+      <DependentUpon>AccueilJ.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Bienvenue.resx">
       <DependentUpon>Bienvenue.cs</DependentUpon>
     </EmbeddedResource>
@@ -95,6 +104,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -120,6 +130,12 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image_2023-12-01_170618903-removebg-preview.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
