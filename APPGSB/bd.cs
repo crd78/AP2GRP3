@@ -15,7 +15,7 @@ namespace SQL_Server_Test
             globale.listFamille.Clear();
 
             //objet SQLCommand pour définir la procédure stockée à utiliser
-            SqlCommand maRequete = new SqlCommand("prc_famille", globale.cnx);
+            SqlCommand maRequete = new SqlCommand("prc_famille", Connexion.cnx);
             maRequete.CommandType = System.Data.CommandType.StoredProcedure;
 
             // exécuter la procedure stockée dans un curseur 
@@ -41,7 +41,7 @@ namespace SQL_Server_Test
         string contreindic
 )
         {
-            SqlCommand maRequete = new SqlCommand("prc_ajouterMedicament", globale.cnx);
+            SqlCommand maRequete = new SqlCommand("prc_ajouterMedicament", Connexion.cnx);
             maRequete.CommandType = System.Data.CommandType.StoredProcedure;
 
             // Ajouter les paramètres à la procédure stockée

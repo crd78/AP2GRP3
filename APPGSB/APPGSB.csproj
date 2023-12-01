@@ -80,6 +80,7 @@
     <Compile Include="Bienvenue.Designer.cs">
       <DependentUpon>Bienvenue.cs</DependentUpon>
     </Compile>
+    <Compile Include="Connexion.cs" />
     <Compile Include="famille.cs" />
     <Compile Include="globale.cs" />
     <Compile Include="medicament.cs" />
