@@ -15,7 +15,9 @@ namespace APPGSB
         private string effets { get; set; }
         private string contreIndication { get; set; }
         private int prix { get; set; }
-        public medicament(string depotLegal, string nomCommercial, string codeFamille, string composition, string effets, string contreIndication)
+        private string amm { get; set; }
+        private string etp_num { get; set; }
+        public medicament(string depotLegal, string nomCommercial, string codeFamille, string composition, string effets, string contreIndication, string amm, string etp_num)
         {
             this.depotLegal = depotLegal;
             this.nomCommercial = nomCommercial;
@@ -24,6 +26,8 @@ namespace APPGSB
             this.effets = effets;
             this.contreIndication = contreIndication;
             this.prix = 0;
+            this.amm = amm;
+            this.etp_num = etp_num;
         }
     }
 }

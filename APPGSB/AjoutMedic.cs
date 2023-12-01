@@ -23,7 +23,7 @@ namespace APPGSB
             
             bd.lireLesFamilles();
 
-            foreach(famille uneFamille in globale.listFamille)
+            foreach(famille uneFamille in globale.lesFamilles.Values)
             {
                 lbFamille.Items.Add(uneFamille.getId() + " : " + uneFamille.getLibelle());
             }

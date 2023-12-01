@@ -36,7 +36,14 @@ namespace APPGSB
             Connexion.cnx = new System.Data.SqlClient.SqlConnection();
             Connexion.cnx.ConnectionString = Connexion.nomServeur;
             Connexion.cnx.Open();
-            globale.listFamille = new List<famille>();
+            globale.lesFamilles = new Dictionary<string, famille>();
+            globale.lesMedicaments = new Dictionary<string, medicament>();
+            bd.lireLesMedicaments();
+            globale.lesEtapes = new List<etapes>();
+            bd.lireLesEtapes();
+            globale.lesDecisions = new List<decisions>();
+            bd.lireLesDecisions();
+            int a = 0;
         }
     }
 }
