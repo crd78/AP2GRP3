@@ -33,9 +33,9 @@ namespace APPGSB
 
         private void Bienvenue_Load(object sender, EventArgs e)
         {
-            globale.cnx = new System.Data.SqlClient.SqlConnection();
-            globale.cnx.ConnectionString = "Data Source=ROXSTRIXG17JC;Initial Catalog=GSB_gesAMM;Integrated Security=True;MultipleActiveResultSets=True";
-            globale.cnx.Open();
+            Connexion.cnx = new System.Data.SqlClient.SqlConnection();
+            Connexion.cnx.ConnectionString = Connexion.nomServeur;
+            Connexion.cnx.Open();
             globale.listFamille = new List<famille>();
         }
     }

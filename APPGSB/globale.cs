@@ -10,7 +10,7 @@ namespace SQL_Server_Test
 {
     class globale
     {
-        public static SqlConnection cnx;
+
         public static List<famille> listFamille;
     }
 }
