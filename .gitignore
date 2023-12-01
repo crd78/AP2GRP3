@@ -1,9 +1,4 @@
 *.vsidx
-# Ignorer le fichier Connexion.cs
-Connexion.cs
-
-# Ignorer les fichiers dans un dossier spécifique
-APPGSB/Connexion.cs
 
 
 
