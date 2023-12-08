@@ -143,7 +143,22 @@ namespace APPGSB
         private void btn_workflow_Click(object sender, EventArgs e)
         {
             ActivateButton(sender);
-            OpenChildForm(new WorkFlow(), sender);
+            //OpenChildForm(new WorkFlow(), sender);
+            WorkFlow form = new WorkFlow();
+
+            // Définir la position en bas à droite de la fenêtre parente
+            int parentWidth = this.ClientSize.Width;
+            int parentHeight = this.ClientSize.Height;
+            int formWidth = form.Width;
+            int formHeight = form.Height;
+
+            form.Location = new Point(parentWidth - formWidth, parentHeight - formHeight);
+
+            // Définir le formulaire en tant qu'enfant MDI
+            form.MdiParent = this;
+
+            // Afficher le formulaire
+            form.Show();
         }
 
         private void btn_nbmedicament_Click(object sender, EventArgs e)
