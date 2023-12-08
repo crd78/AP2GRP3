@@ -57,9 +57,8 @@ namespace APPGSB
             this.panel1.Controls.Add(this.btn_accueil);
             this.panel1.Controls.Add(this.panelLogo);
             this.panel1.Location = new System.Drawing.Point(0, -1);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(313, 994);
+            this.panel1.Size = new System.Drawing.Size(278, 795);
             this.panel1.TabIndex = 0;
             // 
             // button7
@@ -68,10 +67,9 @@ namespace APPGSB
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.button7.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button7.Location = new System.Drawing.Point(0, 879);
-            this.button7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button7.Location = new System.Drawing.Point(0, 646);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(309, 111);
+            this.button7.Size = new System.Drawing.Size(275, 89);
             this.button7.TabIndex = 7;
             this.button7.Text = "Médicament en cours de validation";
             this.button7.UseVisualStyleBackColor = true;
@@ -84,10 +82,9 @@ namespace APPGSB
             this.btn_nbmedicament.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_nbmedicament.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.btn_nbmedicament.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btn_nbmedicament.Location = new System.Drawing.Point(0, 700);
-            this.btn_nbmedicament.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_nbmedicament.Location = new System.Drawing.Point(0, 561);
             this.btn_nbmedicament.Name = "btn_nbmedicament";
-            this.btn_nbmedicament.Size = new System.Drawing.Size(313, 99);
+            this.btn_nbmedicament.Size = new System.Drawing.Size(278, 79);
             this.btn_nbmedicament.TabIndex = 6;
             this.btn_nbmedicament.Text = "Nombre Médicament autorisés par famille";
             this.btn_nbmedicament.UseVisualStyleBackColor = true;
@@ -100,10 +97,9 @@ namespace APPGSB
             this.btn_workflow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_workflow.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.btn_workflow.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btn_workflow.Location = new System.Drawing.Point(0, 584);
-            this.btn_workflow.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_workflow.Location = new System.Drawing.Point(0, 468);
             this.btn_workflow.Name = "btn_workflow";
-            this.btn_workflow.Size = new System.Drawing.Size(313, 116);
+            this.btn_workflow.Size = new System.Drawing.Size(278, 93);
             this.btn_workflow.TabIndex = 5;
             this.btn_workflow.Text = "WorkFlow";
             this.btn_workflow.UseVisualStyleBackColor = true;
@@ -116,10 +112,9 @@ namespace APPGSB
             this.btn_ajoutmedicament.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_ajoutmedicament.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.btn_ajoutmedicament.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btn_ajoutmedicament.Location = new System.Drawing.Point(0, 473);
-            this.btn_ajoutmedicament.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_ajoutmedicament.Location = new System.Drawing.Point(0, 379);
             this.btn_ajoutmedicament.Name = "btn_ajoutmedicament";
-            this.btn_ajoutmedicament.Size = new System.Drawing.Size(313, 111);
+            this.btn_ajoutmedicament.Size = new System.Drawing.Size(278, 89);
             this.btn_ajoutmedicament.TabIndex = 4;
             this.btn_ajoutmedicament.Text = "Ajout Médicament";
             this.btn_ajoutmedicament.UseVisualStyleBackColor = true;
@@ -132,10 +127,9 @@ namespace APPGSB
             this.btn_etapenorme.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_etapenorme.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.btn_etapenorme.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btn_etapenorme.Location = new System.Drawing.Point(0, 362);
-            this.btn_etapenorme.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_etapenorme.Location = new System.Drawing.Point(0, 290);
             this.btn_etapenorme.Name = "btn_etapenorme";
-            this.btn_etapenorme.Size = new System.Drawing.Size(313, 111);
+            this.btn_etapenorme.Size = new System.Drawing.Size(278, 89);
             this.btn_etapenorme.TabIndex = 3;
             this.btn_etapenorme.Text = "Etapes normés";
             this.btn_etapenorme.UseVisualStyleBackColor = true;
@@ -148,10 +142,9 @@ namespace APPGSB
             this.btn_saisieetape.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_saisieetape.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.btn_saisieetape.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btn_saisieetape.Location = new System.Drawing.Point(0, 251);
-            this.btn_saisieetape.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_saisieetape.Location = new System.Drawing.Point(0, 201);
             this.btn_saisieetape.Name = "btn_saisieetape";
-            this.btn_saisieetape.Size = new System.Drawing.Size(313, 111);
+            this.btn_saisieetape.Size = new System.Drawing.Size(278, 89);
             this.btn_saisieetape.TabIndex = 2;
             this.btn_saisieetape.Text = "Saisie décision étape";
             this.btn_saisieetape.UseVisualStyleBackColor = true;
@@ -164,10 +157,9 @@ namespace APPGSB
             this.btn_accueil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_accueil.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.btn_accueil.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btn_accueil.Location = new System.Drawing.Point(0, 140);
-            this.btn_accueil.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_accueil.Location = new System.Drawing.Point(0, 112);
             this.btn_accueil.Name = "btn_accueil";
-            this.btn_accueil.Size = new System.Drawing.Size(313, 111);
+            this.btn_accueil.Size = new System.Drawing.Size(278, 89);
             this.btn_accueil.TabIndex = 1;
             this.btn_accueil.Text = "Accueil";
             this.btn_accueil.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -182,22 +174,19 @@ namespace APPGSB
             this.panelLogo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(58)))));
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
-            this.panelLogo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panelLogo.Name = "panelLogo";
-            this.panelLogo.Size = new System.Drawing.Size(313, 140);
+            this.panelLogo.Size = new System.Drawing.Size(278, 112);
             this.panelLogo.TabIndex = 1;
             this.panelLogo.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // panel2
             // 
-            this.panel2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel2.AutoSize = true;
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(136)))));
             this.panel2.Controls.Add(this.lbTitle);
-            this.panel2.Location = new System.Drawing.Point(312, 3);
-            this.panel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel2.Location = new System.Drawing.Point(278, -1);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1235, 149);
+            this.panel2.Size = new System.Drawing.Size(1117, 112);
             this.panel2.TabIndex = 2;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint_1);
             // 
@@ -207,22 +196,21 @@ namespace APPGSB
             this.lbTitle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(51)))));
             this.lbTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 19F);
             this.lbTitle.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lbTitle.Location = new System.Drawing.Point(519, 42);
+            this.lbTitle.Location = new System.Drawing.Point(461, 34);
             this.lbTitle.Name = "lbTitle";
-            this.lbTitle.Size = new System.Drawing.Size(181, 44);
+            this.lbTitle.Size = new System.Drawing.Size(155, 37);
             this.lbTitle.TabIndex = 3;
             this.lbTitle.Text = "ACCUEIL";
             this.lbTitle.Click += new System.EventHandler(this.label1_Click);
             // 
             // AccueilJ
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1549, 823);
+            this.ClientSize = new System.Drawing.Size(1393, 760);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.IsMdiContainer = true;
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "AccueilJ";
             this.Text = "AccueilJ";
             this.Load += new System.EventHandler(this.AccueilJ_Load);

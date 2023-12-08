@@ -151,7 +151,7 @@ namespace APPGSB
             int parentHeight = this.ClientSize.Height;
             int formWidth = form.Width;
             int formHeight = form.Height;
-
+            form.Size = this.ClientSize;
             form.Location = new Point(parentWidth - formWidth, parentHeight - formHeight);
 
             // Définir le formulaire en tant qu'enfant MDI
