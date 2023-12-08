@@ -17,6 +17,7 @@ namespace APPGSB
         private int tempIndex;
         private Form activeForm;
 
+
         public AccueilJ()
         {
             InitializeComponent();
@@ -53,7 +54,6 @@ namespace APPGSB
                     currentButton.BackColor = color;
                     currentButton.ForeColor = Color.White;
                     currentButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular);
-
                 }
             }
         }
@@ -75,6 +75,7 @@ namespace APPGSB
             {
                 activeForm.Close();
             }
+            ActivateButton(btnSender);
             activeForm = childForm;
             childForm.TopLevel = false;
             childForm.FormBorderStyle = FormBorderStyle.None;
@@ -82,7 +83,6 @@ namespace APPGSB
             this.panel2.Controls.Add(childForm);
             this.panel2.Tag = childForm;
             childForm.BringToFront();
-            childForm.Show();
             lbTitle.Text = childForm.Text;
         }
         private void panel2_Paint(object sender, PaintEventArgs e)
@@ -92,6 +92,7 @@ namespace APPGSB
         private void button1_Click(object sender, EventArgs e)
         {
             ActivateButton(sender);
+            OpenChildForm(new WorkFlow(), sender);
         }
 
         private void AccueilJ_Load(object sender, EventArgs e)
@@ -127,35 +128,64 @@ namespace APPGSB
         private void btn_saisieetape_Click(object sender, EventArgs e)
         {
             ActivateButton(sender);
+            OpenChildForm(new WorkFlow(), sender);
+
         }
 
         private void btn_etapenorme_Click(object sender, EventArgs e)
         {
             ActivateButton(sender);
+            OpenChildForm(new WorkFlow(), sender);
+
 
         }
 
         private void btn_workflow_Click(object sender, EventArgs e)
         {
             ActivateButton(sender);
-
+            OpenChildForm(new WorkFlow(), sender);
         }
 
         private void btn_nbmedicament_Click(object sender, EventArgs e)
         {
             ActivateButton(sender);
+            OpenChildForm(new WorkFlow(), sender);
 
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
             ActivateButton(sender);
+            OpenChildForm(new WorkFlow(), sender);
+
 
         }
 
         private void panel2_Paint_1(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void btn_accueil_MouseCaptureChanged(object sender, EventArgs e)
+        {
+        }
+
+        private void btn_accueil_MouseEnter(object sender, EventArgs e)
+        {
+            ActivateButton(sender);
+        }
+
+        private void btn_accueil_MouseLeave(object sender, EventArgs e)
+        {
+            DisableButton(sender);
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            if (activeForm != null)
+            {
+                activeForm.Close();
+            }
         }
     }
 }

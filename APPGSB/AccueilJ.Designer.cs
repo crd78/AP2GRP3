@@ -40,18 +40,14 @@ namespace APPGSB
             this.panelLogo = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.lbTitle = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.AutoSize = true;
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
             this.panel1.Controls.Add(this.button7);
             this.panel1.Controls.Add(this.btn_nbmedicament);
             this.panel1.Controls.Add(this.btn_workflow);
@@ -86,9 +82,9 @@ namespace APPGSB
             this.btn_nbmedicament.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_nbmedicament.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.btn_nbmedicament.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btn_nbmedicament.Location = new System.Drawing.Point(0, 557);
+            this.btn_nbmedicament.Location = new System.Drawing.Point(0, 561);
             this.btn_nbmedicament.Name = "btn_nbmedicament";
-            this.btn_nbmedicament.Size = new System.Drawing.Size(278, 89);
+            this.btn_nbmedicament.Size = new System.Drawing.Size(278, 79);
             this.btn_nbmedicament.TabIndex = 6;
             this.btn_nbmedicament.Text = "Nombre Médicament autorisés par famille";
             this.btn_nbmedicament.UseVisualStyleBackColor = true;
@@ -103,7 +99,7 @@ namespace APPGSB
             this.btn_workflow.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btn_workflow.Location = new System.Drawing.Point(0, 468);
             this.btn_workflow.Name = "btn_workflow";
-            this.btn_workflow.Size = new System.Drawing.Size(278, 89);
+            this.btn_workflow.Size = new System.Drawing.Size(278, 93);
             this.btn_workflow.TabIndex = 5;
             this.btn_workflow.Text = "WorkFlow";
             this.btn_workflow.UseVisualStyleBackColor = true;
@@ -169,10 +165,13 @@ namespace APPGSB
             this.btn_accueil.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btn_accueil.UseVisualStyleBackColor = true;
             this.btn_accueil.Click += new System.EventHandler(this.button1_Click);
+            this.btn_accueil.MouseCaptureChanged += new System.EventHandler(this.btn_accueil_MouseCaptureChanged);
+            this.btn_accueil.MouseEnter += new System.EventHandler(this.btn_accueil_MouseEnter);
+            this.btn_accueil.MouseLeave += new System.EventHandler(this.btn_accueil_MouseLeave);
             // 
             // panelLogo
             // 
-            this.panelLogo.BackColor = System.Drawing.Color.Navy;
+            this.panelLogo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(58)))));
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
             this.panelLogo.Name = "panelLogo";
@@ -184,67 +183,32 @@ namespace APPGSB
             // 
             this.panel2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel2.AutoSize = true;
-            this.panel2.BackColor = System.Drawing.Color.DodgerBlue;
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(136)))));
             this.panel2.Controls.Add(this.lbTitle);
-            this.panel2.Location = new System.Drawing.Point(276, -1);
+            this.panel2.Location = new System.Drawing.Point(277, -1);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1094, 112);
+            this.panel2.Size = new System.Drawing.Size(1093, 119);
             this.panel2.TabIndex = 2;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint_1);
             // 
             // lbTitle
             // 
             this.lbTitle.AutoSize = true;
+            this.lbTitle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(51)))));
             this.lbTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 19F);
             this.lbTitle.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lbTitle.Location = new System.Drawing.Point(466, 40);
+            this.lbTitle.Location = new System.Drawing.Point(461, 34);
             this.lbTitle.Name = "lbTitle";
             this.lbTitle.Size = new System.Drawing.Size(155, 37);
             this.lbTitle.TabIndex = 3;
             this.lbTitle.Text = "ACCUEIL";
             this.lbTitle.Click += new System.EventHandler(this.label1_Click);
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.label2.Location = new System.Drawing.Point(709, 158);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(217, 39);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "BIENVENUE";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.textBox1.Location = new System.Drawing.Point(457, 583);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(676, 63);
-            this.textBox1.TabIndex = 6;
-            this.textBox1.Text = "Application de gestion et de suivi des Autorisations de Mise sur le Marché des mé" +
-    "dicaments";
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::APPGSB.Properties.Resources.image_2023_12_01_170618903_removebg_preview;
-            this.pictureBox1.Location = new System.Drawing.Point(626, 239);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(380, 268);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
-            // 
             // AccueilJ
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1367, 637);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.pictureBox1);
+            this.ClientSize = new System.Drawing.Size(1367, 651);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "AccueilJ";
@@ -253,7 +217,6 @@ namespace APPGSB
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -272,8 +235,5 @@ namespace APPGSB
         private System.Windows.Forms.Panel panelLogo;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label lbTitle;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
     }
 }
