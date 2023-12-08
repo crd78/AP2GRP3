@@ -16,5 +16,10 @@ namespace APPGSB
         {
             InitializeComponent();
         }
+
+        private void AjoutMedic_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

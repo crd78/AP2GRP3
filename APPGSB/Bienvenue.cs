@@ -29,5 +29,10 @@ namespace APPGSB
             AccueilJ.Show();
             this.Hide();
         }
+
+        private void Bienvenue_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

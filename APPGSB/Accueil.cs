@@ -47,5 +47,10 @@ namespace APPGSB
             }
           
         }
+
+        private void Accueil_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
