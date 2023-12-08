@@ -12,7 +12,7 @@ namespace SQL_Server_Test
     {
         public static void lireLesFamilles()
         {
-            globale.listFamille.Clear();
+            globale.lesFamilles.Clear();
 
             //objet SQLCommand pour définir la procédure stockée à utiliser
             SqlCommand maRequete = new SqlCommand("prc_famille", Connexion.cnx);
@@ -29,7 +29,82 @@ namespace SQL_Server_Test
 
                 famille laFamille = new famille(id, libelle);
 
-                globale.listFamille.Add(laFamille);
+                globale.lesFamilles.Add(laFamille.getId(),laFamille);
+            }
+        }
+        public static void lireLesDecisions()
+        {
+            globale.lesDecisions.Clear();
+
+            //objet SQLCommand pour définir la procédure stockée à utiliser
+            SqlCommand maRequete = new SqlCommand("prc_decisions", Connexion.cnx);
+            maRequete.CommandType = System.Data.CommandType.StoredProcedure;
+
+            // exécuter la procedure stockée dans un curseur 
+            SqlDataReader SqlExec = maRequete.ExecuteReader();
+
+            //boucle de lecture des clients avec ajout dans la collection
+            while (SqlExec.Read())
+            {
+                int id = int.Parse(SqlExec["DCS_ID"].ToString());
+                string libelle = SqlExec["DCS_LIBELLE"].ToString();
+
+                decisions uneDecision = new decisions(id, libelle);
+
+                globale.lesDecisions.Add(uneDecision);
+            }
+        }
+        public static void lireLesEtapes()
+        {
+            globale.lesEtapes.Clear();
+
+            //objet SQLCommand pour définir la procédure stockée à utiliser
+            SqlCommand maRequete = new SqlCommand("prc_etapes", Connexion.cnx);
+            maRequete.CommandType = System.Data.CommandType.StoredProcedure;
+
+            // exécuter la procedure stockée dans un curseur 
+            SqlDataReader SqlExec = maRequete.ExecuteReader();
+
+            //boucle de lecture des clients avec ajout dans la collection
+            while (SqlExec.Read())
+            {
+                int id = int.Parse(SqlExec["ETP_NUM"].ToString());
+                string libelle = SqlExec["ETP_LIBELLE"].ToString();
+                string norme = SqlExec["ETP_NORME"].ToString();
+                string date = SqlExec["ETP_DATE_NORME"].ToString();
+                int estNormee = int.Parse(SqlExec["estNormee"].ToString());
+
+                etapes etape = new etapes(id, libelle, norme,date,estNormee) ;
+
+                globale.lesEtapes.Add(etape);
+            }
+        }
+        public static void lireLesMedicaments()
+        {
+            globale.lesMedicaments.Clear();
+
+            //objet SQLCommand pour définir la procédure stockée à utiliser
+            SqlCommand maRequete = new SqlCommand("prc_medicament", Connexion.cnx);
+            maRequete.CommandType = System.Data.CommandType.StoredProcedure;
+
+            // exécuter la procedure stockée dans un curseur 
+            SqlDataReader SqlExec = maRequete.ExecuteReader();
+
+            //boucle de lecture des clients avec ajout dans la collection
+            while (SqlExec.Read())
+            {
+                string depotlegal = SqlExec["MED_DEPOTLEGAL"].ToString();
+                string nomcommercial = SqlExec["MED_NOMCOMMERCIAL"].ToString();
+                string fam_code = SqlExec["FAM_CODE"].ToString();
+                string composition = SqlExec["MED_COMPOSITION"].ToString();
+                string effets = SqlExec["MED_EFFETS"].ToString();
+                string contreindic = SqlExec["MED_CONTREINDIC"].ToString();
+                string amm = SqlExec["MED_AMM"].ToString();
+                string etp_num = SqlExec["MED_ETP_NUM"].ToString();
+
+                medicament leMedicament = new medicament(depotlegal, nomcommercial, fam_code, composition, effets,contreindic,amm,etp_num) ;
+
+                globale.lesMedicaments.Add(depotlegal, leMedicament);
             }
         }
         public static Boolean ajouterMedicament(
