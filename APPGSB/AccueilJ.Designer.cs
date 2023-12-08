@@ -40,9 +40,9 @@ namespace APPGSB
             this.panelLogo = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.lbTitle = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -62,7 +62,7 @@ namespace APPGSB
             this.panel1.Controls.Add(this.panelLogo);
             this.panel1.Location = new System.Drawing.Point(0, -1);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(281, 1015);
+            this.panel1.Size = new System.Drawing.Size(278, 795);
             this.panel1.TabIndex = 0;
             // 
             // button7
@@ -81,13 +81,14 @@ namespace APPGSB
             // 
             // btn_nbmedicament
             // 
+            this.btn_nbmedicament.Dock = System.Windows.Forms.DockStyle.Top;
             this.btn_nbmedicament.FlatAppearance.BorderSize = 0;
             this.btn_nbmedicament.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_nbmedicament.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.btn_nbmedicament.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btn_nbmedicament.Location = new System.Drawing.Point(3, 584);
+            this.btn_nbmedicament.Location = new System.Drawing.Point(0, 557);
             this.btn_nbmedicament.Name = "btn_nbmedicament";
-            this.btn_nbmedicament.Size = new System.Drawing.Size(275, 89);
+            this.btn_nbmedicament.Size = new System.Drawing.Size(278, 89);
             this.btn_nbmedicament.TabIndex = 6;
             this.btn_nbmedicament.Text = "Nombre Médicament autorisés par famille";
             this.btn_nbmedicament.UseVisualStyleBackColor = true;
@@ -95,13 +96,14 @@ namespace APPGSB
             // 
             // btn_workflow
             // 
+            this.btn_workflow.Dock = System.Windows.Forms.DockStyle.Top;
             this.btn_workflow.FlatAppearance.BorderSize = 0;
             this.btn_workflow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_workflow.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.btn_workflow.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btn_workflow.Location = new System.Drawing.Point(3, 489);
+            this.btn_workflow.Location = new System.Drawing.Point(0, 468);
             this.btn_workflow.Name = "btn_workflow";
-            this.btn_workflow.Size = new System.Drawing.Size(275, 89);
+            this.btn_workflow.Size = new System.Drawing.Size(278, 89);
             this.btn_workflow.TabIndex = 5;
             this.btn_workflow.Text = "WorkFlow";
             this.btn_workflow.UseVisualStyleBackColor = true;
@@ -109,13 +111,14 @@ namespace APPGSB
             // 
             // btn_ajoutmedicament
             // 
+            this.btn_ajoutmedicament.Dock = System.Windows.Forms.DockStyle.Top;
             this.btn_ajoutmedicament.FlatAppearance.BorderSize = 0;
             this.btn_ajoutmedicament.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_ajoutmedicament.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.btn_ajoutmedicament.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btn_ajoutmedicament.Location = new System.Drawing.Point(-3, 394);
+            this.btn_ajoutmedicament.Location = new System.Drawing.Point(0, 379);
             this.btn_ajoutmedicament.Name = "btn_ajoutmedicament";
-            this.btn_ajoutmedicament.Size = new System.Drawing.Size(275, 89);
+            this.btn_ajoutmedicament.Size = new System.Drawing.Size(278, 89);
             this.btn_ajoutmedicament.TabIndex = 4;
             this.btn_ajoutmedicament.Text = "Ajout Médicament";
             this.btn_ajoutmedicament.UseVisualStyleBackColor = true;
@@ -123,13 +126,14 @@ namespace APPGSB
             // 
             // btn_etapenorme
             // 
+            this.btn_etapenorme.Dock = System.Windows.Forms.DockStyle.Top;
             this.btn_etapenorme.FlatAppearance.BorderSize = 0;
             this.btn_etapenorme.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_etapenorme.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.btn_etapenorme.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btn_etapenorme.Location = new System.Drawing.Point(0, 299);
+            this.btn_etapenorme.Location = new System.Drawing.Point(0, 290);
             this.btn_etapenorme.Name = "btn_etapenorme";
-            this.btn_etapenorme.Size = new System.Drawing.Size(275, 89);
+            this.btn_etapenorme.Size = new System.Drawing.Size(278, 89);
             this.btn_etapenorme.TabIndex = 3;
             this.btn_etapenorme.Text = "Etapes normés";
             this.btn_etapenorme.UseVisualStyleBackColor = true;
@@ -137,13 +141,14 @@ namespace APPGSB
             // 
             // btn_saisieetape
             // 
+            this.btn_saisieetape.Dock = System.Windows.Forms.DockStyle.Top;
             this.btn_saisieetape.FlatAppearance.BorderSize = 0;
             this.btn_saisieetape.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_saisieetape.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.btn_saisieetape.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btn_saisieetape.Location = new System.Drawing.Point(0, 204);
+            this.btn_saisieetape.Location = new System.Drawing.Point(0, 201);
             this.btn_saisieetape.Name = "btn_saisieetape";
-            this.btn_saisieetape.Size = new System.Drawing.Size(275, 89);
+            this.btn_saisieetape.Size = new System.Drawing.Size(278, 89);
             this.btn_saisieetape.TabIndex = 2;
             this.btn_saisieetape.Text = "Saisie décision étape";
             this.btn_saisieetape.UseVisualStyleBackColor = true;
@@ -151,21 +156,24 @@ namespace APPGSB
             // 
             // btn_accueil
             // 
+            this.btn_accueil.Dock = System.Windows.Forms.DockStyle.Top;
             this.btn_accueil.FlatAppearance.BorderSize = 0;
             this.btn_accueil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_accueil.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.btn_accueil.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btn_accueil.Location = new System.Drawing.Point(0, 109);
+            this.btn_accueil.Location = new System.Drawing.Point(0, 112);
             this.btn_accueil.Name = "btn_accueil";
-            this.btn_accueil.Size = new System.Drawing.Size(275, 89);
+            this.btn_accueil.Size = new System.Drawing.Size(278, 89);
             this.btn_accueil.TabIndex = 1;
             this.btn_accueil.Text = "Accueil";
+            this.btn_accueil.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btn_accueil.UseVisualStyleBackColor = true;
             this.btn_accueil.Click += new System.EventHandler(this.button1_Click);
             // 
             // panelLogo
             // 
             this.panelLogo.BackColor = System.Drawing.Color.Navy;
+            this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
             this.panelLogo.Name = "panelLogo";
             this.panelLogo.Size = new System.Drawing.Size(278, 112);
@@ -174,35 +182,27 @@ namespace APPGSB
             // 
             // panel2
             // 
+            this.panel2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel2.AutoSize = true;
-            this.panel2.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.panel2.BackColor = System.Drawing.Color.DodgerBlue;
             this.panel2.Controls.Add(this.lbTitle);
-            this.panel2.Location = new System.Drawing.Point(281, -1);
+            this.panel2.Location = new System.Drawing.Point(276, -1);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1089, 80);
+            this.panel2.Size = new System.Drawing.Size(1094, 112);
             this.panel2.TabIndex = 2;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint_1);
             // 
             // lbTitle
             // 
             this.lbTitle.AutoSize = true;
-            this.lbTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.lbTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 19F);
             this.lbTitle.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lbTitle.Location = new System.Drawing.Point(490, 35);
+            this.lbTitle.Location = new System.Drawing.Point(466, 40);
             this.lbTitle.Name = "lbTitle";
-            this.lbTitle.Size = new System.Drawing.Size(121, 29);
+            this.lbTitle.Size = new System.Drawing.Size(155, 37);
             this.lbTitle.TabIndex = 3;
             this.lbTitle.Text = "ACCUEIL";
             this.lbTitle.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::APPGSB.Properties.Resources.image_2023_12_01_170618903_removebg_preview;
-            this.pictureBox1.Location = new System.Drawing.Point(626, 239);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(380, 268);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
             // 
             // label2
             // 
@@ -227,11 +227,21 @@ namespace APPGSB
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::APPGSB.Properties.Resources.image_2023_12_01_170618903_removebg_preview;
+            this.pictureBox1.Location = new System.Drawing.Point(626, 239);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(380, 268);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            // 
             // AccueilJ
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1367, 848);
+            this.ClientSize = new System.Drawing.Size(1367, 637);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox1);

@@ -79,8 +79,8 @@ namespace APPGSB
             childForm.TopLevel = false;
             childForm.FormBorderStyle = FormBorderStyle.None;
             childForm.Dock = DockStyle.Fill;
-            this.panel1.Controls.Add(childForm);
-            this.panel1.Tag = childForm;
+            this.panel2.Controls.Add(childForm);
+            this.panel2.Tag = childForm;
             childForm.BringToFront();
             childForm.Show();
             lbTitle.Text = childForm.Text;
@@ -150,6 +150,11 @@ namespace APPGSB
         private void button7_Click(object sender, EventArgs e)
         {
             ActivateButton(sender);
+
+        }
+
+        private void panel2_Paint_1(object sender, PaintEventArgs e)
+        {
 
         }
     }
