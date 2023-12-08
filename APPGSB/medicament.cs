@@ -17,6 +17,7 @@ namespace APPGSB
         private int prix { get; set; }
         private string amm { get; set; }
         private string etp_num { get; set; }
+        private List<Workflow> lesWorkflows { get; set; }
         public medicament(string depotLegal, string nomCommercial, string codeFamille, string composition, string effets, string contreIndication, string amm, string etp_num)
         {
             this.depotLegal = depotLegal;
