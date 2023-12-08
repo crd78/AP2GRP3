@@ -8,8 +8,8 @@ namespace APPGSB
 {
     class decisions
     {
-        private int id { get; set; }
-        private string libelle { get; set; }
+        public int id { get; set; }
+        public string libelle { get; set; }
         public decisions(int id, string libelle)
         {
             this.id = id;

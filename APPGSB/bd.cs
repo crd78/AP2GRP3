@@ -54,6 +54,52 @@ namespace SQL_Server_Test
                 globale.lesDecisions.Add(uneDecision);
             }
         }
+        public static void lireLesWorkflows()
+        {
+            //objet SQLCommand pour définir la procédure stockée à utiliser
+            SqlCommand maRequete = new SqlCommand("prc_workflows", Connexion.cnx);
+            maRequete.CommandType = System.Data.CommandType.StoredProcedure;
+
+            // exécuter la procedure stockée dans un curseur 
+            SqlDataReader SqlExec = maRequete.ExecuteReader();
+
+            //boucle de lecture des clients avec ajout dans la collection
+            while (SqlExec.Read())
+            {
+                string depot = SqlExec["SBR_MED_DEPOTLEGAL"].ToString();
+                int numEtp = int.Parse(SqlExec["SBR_ETP_NUM"].ToString());
+                int dcsId = int.Parse(SqlExec["SBR_DCS_ID"].ToString());
+                DateTime dateDec = DateTime.Parse(SqlExec["SBR_DATEDECISION"].ToString());
+                bool trouve = false;
+                int i = 0;
+                while(!trouve && i < globale.lesEtapes.Count)
+                {
+                    if (globale.lesEtapes[i].etp_num == numEtp)
+                    {
+                        trouve = true;
+                    }
+                    else { i++; }
+                }
+                etapes letapes = globale.lesEtapes[i];
+                i = 0;
+                trouve = false;
+                while(!trouve && i < globale.lesDecisions.Count)
+                {
+                    if(globale.lesDecisions[i].id == dcsId)
+                    {
+                        trouve= true;
+                    }
+                    else
+                    {
+                        i++;
+                    }
+                }
+                decisions laDecision = globale.lesDecisions[i];
+                Workflow unWorkflow = new Workflow(dateDec, letapes, laDecision);
+
+                globale.lesMedicaments[depot].ajouterWorkflow(unWorkflow);
+            }
+        }
         public static void lireLesEtapes()
         {
             globale.lesEtapes.Clear();

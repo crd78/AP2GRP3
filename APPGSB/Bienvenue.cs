@@ -43,7 +43,7 @@ namespace APPGSB
             bd.lireLesEtapes();
             globale.lesDecisions = new List<decisions>();
             bd.lireLesDecisions();
-            int a = 0;
+            bd.lireLesWorkflows();
         }
     }
 }
