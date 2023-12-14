@@ -135,7 +135,22 @@ namespace APPGSB
         private void btn_etapenorme_Click(object sender, EventArgs e)
         {
             ActivateButton(sender);
-            OpenChildForm(new WorkFlow(), sender);
+            //OpenChildForm(new WorkFlow(), sender);
+            etapenormee form = new etapenormee();
+
+            // Définir la position en bas à droite de la fenêtre parente
+            int parentWidth = this.ClientSize.Width;
+            int parentHeight = this.ClientSize.Height;
+            int formWidth = form.Width;
+            int formHeight = form.Height;
+            form.Size = this.ClientSize;
+            form.Location = new Point(parentWidth - formWidth, parentHeight - formHeight);
+
+            // Définir le formulaire en tant qu'enfant MDI
+            form.MdiParent = this;
+
+            // Afficher le formulaire
+            form.Show();
 
 
         }

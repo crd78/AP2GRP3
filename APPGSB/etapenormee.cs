@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace APPGSB
 {
-    public partial class WorkFlow : Form
+    public partial class etapenormee : Form
     {
-        public WorkFlow()
+        public etapenormee()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
