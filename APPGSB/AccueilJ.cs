@@ -119,16 +119,43 @@ namespace APPGSB
         private void button4_Click(object sender, EventArgs e)
         {
             ActivateButton(sender);
-            //ouvre l'accueil
-            AjoutMedic AccueilJ = new AjoutMedic();
-            AccueilJ.Show();
-            this.Hide();
+            //OpenChildForm(new WorkFlow(), sender);
+            AjoutMedic form = new AjoutMedic();
+
+            // Définir la position en bas à droite de la fenêtre parente
+            int parentWidth = this.ClientSize.Width;
+            int parentHeight = this.ClientSize.Height;
+            int formWidth = form.Width;
+            int formHeight = form.Height;
+            form.Size = this.ClientSize;
+            form.Location = new Point(parentWidth - formWidth, parentHeight - formHeight);
+
+            // Définir le formulaire en tant qu'enfant MDI
+            form.MdiParent = this;
+
+            // Afficher le formulaire
+            form.Show();
         }
 
         private void btn_saisieetape_Click(object sender, EventArgs e)
         {
             ActivateButton(sender);
-            OpenChildForm(new WorkFlow(), sender);
+            //OpenChildForm(new WorkFlow(), sender);
+            saisieetape form = new saisieetape();
+
+            // Définir la position en bas à droite de la fenêtre parente
+            int parentWidth = this.ClientSize.Width;
+            int parentHeight = this.ClientSize.Height;
+            int formWidth = form.Width;
+            int formHeight = form.Height;
+            form.Size = this.ClientSize;
+            form.Location = new Point(parentWidth - formWidth, parentHeight - formHeight);
+
+            // Définir le formulaire en tant qu'enfant MDI
+            form.MdiParent = this;
+
+            // Afficher le formulaire
+            form.Show();
 
         }
 
@@ -179,14 +206,44 @@ namespace APPGSB
         private void btn_nbmedicament_Click(object sender, EventArgs e)
         {
             ActivateButton(sender);
-            OpenChildForm(new WorkFlow(), sender);
+            //OpenChildForm(new WorkFlow(), sender);
+            nbmedicament form = new nbmedicament();
+
+            // Définir la position en bas à droite de la fenêtre parente
+            int parentWidth = this.ClientSize.Width;
+            int parentHeight = this.ClientSize.Height;
+            int formWidth = form.Width;
+            int formHeight = form.Height;
+            form.Size = this.ClientSize;
+            form.Location = new Point(parentWidth - formWidth, parentHeight - formHeight);
+
+            // Définir le formulaire en tant qu'enfant MDI
+            form.MdiParent = this;
+
+            // Afficher le formulaire
+            form.Show();
 
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
             ActivateButton(sender);
-            OpenChildForm(new WorkFlow(), sender);
+            //OpenChildForm(new WorkFlow(), sender);
+            medicautorise form = new medicautorise();
+
+            // Définir la position en bas à droite de la fenêtre parente
+            int parentWidth = this.ClientSize.Width;
+            int parentHeight = this.ClientSize.Height;
+            int formWidth = form.Width;
+            int formHeight = form.Height;
+            form.Size = this.ClientSize;
+            form.Location = new Point(parentWidth - formWidth, parentHeight - formHeight);
+
+            // Définir le formulaire en tant qu'enfant MDI
+            form.MdiParent = this;
+
+            // Afficher le formulaire
+            form.Show();
 
 
         }

@@ -1,7 +1,7 @@
 ﻿
 namespace APPGSB
 {
-    partial class WorkFlow
+    partial class medicautorise
     {
         /// <summary>
         /// Required designer variable.
@@ -29,35 +29,19 @@ namespace APPGSB
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.label1.Location = new System.Drawing.Point(452, 66);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(318, 39);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "TEST WORKFLOW";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // WorkFlow
+            // medicautorise
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1286, 809);
-            this.Controls.Add(this.label1);
-            this.Name = "WorkFlow";
-            this.Text = "WorkFlow";
+            this.ClientSize = new System.Drawing.Size(1201, 821);
+            this.Name = "medicautorise";
+            this.Text = "medicautorise";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
     }
 }

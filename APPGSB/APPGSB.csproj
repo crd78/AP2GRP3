@@ -91,8 +91,26 @@
     <Compile Include="etapenormee.Designer.cs">
       <DependentUpon>etapenormee.cs</DependentUpon>
     </Compile>
+    <Compile Include="medicautorise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="medicautorise.Designer.cs">
+      <DependentUpon>medicautorise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="nbmedicament.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nbmedicament.Designer.cs">
+      <DependentUpon>nbmedicament.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="saisieetape.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="saisieetape.Designer.cs">
+      <DependentUpon>saisieetape.cs</DependentUpon>
+    </Compile>
     <Compile Include="ThemeColor.cs" />
     <Compile Include="WorkFlow.cs">
       <SubType>Form</SubType>
@@ -115,6 +133,12 @@
     <EmbeddedResource Include="etapenormee.resx">
       <DependentUpon>etapenormee.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="medicautorise.resx">
+      <DependentUpon>medicautorise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nbmedicament.resx">
+      <DependentUpon>nbmedicament.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -125,6 +149,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="saisieetape.resx">
+      <DependentUpon>saisieetape.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="WorkFlow.resx">
       <DependentUpon>WorkFlow.cs</DependentUpon>
     </EmbeddedResource>
