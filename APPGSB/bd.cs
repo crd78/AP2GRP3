@@ -151,5 +151,41 @@ namespace SQL_Server_Test
                 return false;
             }
         }
+        public static Boolean saisirEtape(
+        string depotLegal,
+        int numEtape,
+        int idDcs,
+        string date
+)
+        {
+            SqlCommand maRequete = new SqlCommand("prc_saisirDecision", Connexion.cnx);
+            maRequete.CommandType = System.Data.CommandType.StoredProcedure;
+
+            // Ajouter les paramètres à la procédure stockée
+            SqlParameter paramDepotLegal = new SqlParameter("@p_DEPOTLEGAL", System.Data.SqlDbType.VarChar, 255);
+            paramDepotLegal.Value = depotLegal;
+            SqlParameter paramNumEtape = new SqlParameter("@p_NUMETAPE", System.Data.SqlDbType.Int);
+            paramNumEtape.Value = numEtape;
+            SqlParameter paramDecision = new SqlParameter("@p_DECISION", System.Data.SqlDbType.Int);
+            paramDecision.Value = idDcs;
+            SqlParameter paramDate = new SqlParameter("@p_DATE", System.Data.SqlDbType.VarChar, 12);
+            paramDate.Value = date;
+
+            maRequete.Parameters.Add(paramDepotLegal);
+            maRequete.Parameters.Add(paramNumEtape);
+            maRequete.Parameters.Add(paramDecision);
+            maRequete.Parameters.Add(paramDate);
+
+            // exécuter la procédure stockée
+            try
+            {
+                maRequete.ExecuteNonQuery();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
     }
 }

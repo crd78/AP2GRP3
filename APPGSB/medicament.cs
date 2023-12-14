@@ -8,16 +8,16 @@ namespace APPGSB
 {
     class medicament
     {
-        private string depotLegal { get; set; }
-        private string nomCommercial { get; set; }
-        private string codeFamille { get; set; }
-        private string composition { get; set; }
-        private string effets { get; set; }
-        private string contreIndication { get; set; }
-        private int prix { get; set; }
-        private string amm { get; set; }
-        private string etp_num { get; set; }
-        private List<Workflow> lesWorkflows { get; set; }
+        public string depotLegal { get; set; }
+        public string nomCommercial { get; set; }
+        public string codeFamille { get; set; }
+        public string composition { get; set; }
+        public string effets { get; set; }
+        public string contreIndication { get; set; }
+        public int prix { get; set; }
+        public string amm { get; set; }
+        public string etp_num { get; set; }
+        public List<Workflow> lesWorkflows { get; set; }
         public medicament(string depotLegal, string nomCommercial, string codeFamille, string composition, string effets, string contreIndication, string amm, string etp_num)
         {
             this.depotLegal = depotLegal;
