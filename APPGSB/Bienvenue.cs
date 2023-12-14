@@ -43,7 +43,7 @@ namespace APPGSB
             bd.lireLesEtapes();
             globale.lesDecisions = new List<decisions>();
             bd.lireLesDecisions();
-            globale.lesMedicEnVerif = new List<medicament>();
+            globale.lesMedicaments = new Dictionary<string, medicament>();
             bd.lireLesMedicEnVerif();
         
            

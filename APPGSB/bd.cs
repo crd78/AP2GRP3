@@ -81,7 +81,7 @@ namespace SQL_Server_Test
         }
         public static void lireLesMedicEnVerif()
         {
-            globale.lesMedicEnVerif.Clear();
+            globale.lesMedicaments.Clear();
 
             //objet SQLCommand pour définir la procédure stockée à utiliser
             SqlCommand maRequete = new SqlCommand("prc_medicamentEnVerif", Connexion.cnx);
@@ -105,6 +105,7 @@ namespace SQL_Server_Test
 
                 famille laFamille = new famille(fam_code, libelleFamille);
                 medicament leMedicament = new medicament(depotlegal, nomcommercial, fam_code,composition,effets,contreindic,amm,etp_num);
+                globale.lesMedicaments.Add(depotlegal, leMedicament);
             }
             
         }

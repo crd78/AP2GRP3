@@ -20,22 +20,22 @@ namespace APPGSB
 
         private void medicEnVerif_Load(object sender, EventArgs e)
         {
-            foreach(famille laFamille in globale.lesFamilles.Values)
+            // Effacez les éléments précédents de la ListView une seule fois avant la boucle
+            listView1.Items.Clear();
+
+            // Lisez les médicaments en vérification
+            bd.lireLesMedicEnVerif();
+
+            // Ajoutez chaque médicament à la ListView
+            foreach (medicament leMedic in globale.lesMedicaments.Values)
             {
-               foreach(medicament leMedicament in laFamille.getLesMedicaments())
-                {
-                    if(leMedicament.getCodeFamille()== laFamille.getId())
-                    {
-                        ListViewItem uneLigne = new ListViewItem();
-                        uneLigne.Text = leMedicament.getDepotLegal();
-                        uneLigne.SubItems.Add(leMedicament.getNomCommercial());
-                        uneLigne.SubItems.Add(laFamille.getLibelle());
+                ListViewItem uneLigne = new ListViewItem();
+                uneLigne.Text = leMedic.depotLegal;
+                uneLigne.SubItems.Add(leMedic.nomCommercial);
+                uneLigne.SubItems.Add(leMedic.codeFamille);
 
-
-                    }
-                }
+                listView1.Items.Add(uneLigne);
             }
-           
         }
     }
 }
