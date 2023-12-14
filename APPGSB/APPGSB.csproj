@@ -83,6 +83,12 @@
     <Compile Include="Connexion.cs" />
     <Compile Include="decisions.cs" />
     <Compile Include="famille.cs" />
+    <Compile Include="FrmConnexioncs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConnexioncs.Designer.cs">
+      <DependentUpon>FrmConnexioncs.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmSaisieDecision.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +106,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="etapes.cs" />
+    <Compile Include="User.cs" />
     <Compile Include="Workflow.cs" />
     <EmbeddedResource Include="Accueil.resx">
       <DependentUpon>Accueil.cs</DependentUpon>
@@ -109,6 +116,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Bienvenue.resx">
       <DependentUpon>Bienvenue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConnexioncs.resx">
+      <DependentUpon>FrmConnexioncs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmSaisieDecision.resx">
       <DependentUpon>frmSaisieDecision.cs</DependentUpon>

@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace APPGSB
 {
@@ -45,8 +46,11 @@ namespace APPGSB
             bd.lireLesDecisions();
             globale.lesMedicaments = new Dictionary<string, medicament>();
             bd.lireLesMedicEnVerif();
+          
         
-           
+
+
+
             int a = 0;
         }
     }

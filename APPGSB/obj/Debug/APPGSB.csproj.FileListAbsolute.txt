@@ -37,3 +37,4 @@ C:\Users\rodriguc\AP2GRP3\APPGSB\obj\Debug\APPGSB.csproj.GenerateResource.cache
 C:\Users\rodriguc\AP2GRP3\APPGSB\obj\Debug\APPGSB.csproj.CoreCompileInputs.cache
 C:\Users\rodriguc\AP2GRP3\APPGSB\obj\Debug\APPGSB.exe
 C:\Users\rodriguc\AP2GRP3\APPGSB\obj\Debug\APPGSB.pdb
+C:\Users\rodriguc\AP2GRP3\APPGSB\obj\Debug\APPGSB.FrmConnexioncs.resources
