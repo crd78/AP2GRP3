@@ -1,4 +1,4 @@
-﻿using SQL_Server_Test;
+using SQL_Server_Test;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -49,11 +49,9 @@ namespace APPGSB
           
         }
 
-        private void saisieDécisionToolStripMenuItem_Click(object sender, EventArgs e)
+        private void Accueil_Load(object sender, EventArgs e)
         {
-            frmSaisieDecision form = new frmSaisieDecision();
-            this.Hide();
-            form.Show();
+
         }
     }
 }
