@@ -12,11 +12,6 @@ namespace APPGSB
 {
     public partial class Accueil_GSB : Form
     {
-        //Champ
-        private Button currentButton;
-        private Random random;
-        private int tempIndex;
-
         public Accueil_GSB()
         {
             InitializeComponent();
