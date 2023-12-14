@@ -25,8 +25,8 @@ namespace APPGSB
         private void button1_Click(object sender, EventArgs e)
         {
             //ouvre l'accueil
-            AccueilJ AccueilJ = new AccueilJ();
-            AccueilJ.Show();
+            Accueil_GSB AccueilGSB = new Accueil_GSB();
+            AccueilGSB.Show();
             this.Hide();
         }
 
