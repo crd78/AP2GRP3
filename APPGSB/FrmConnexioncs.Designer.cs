@@ -37,6 +37,7 @@
             // 
             // textBox1
             // 
+            this.textBox1.BackColor = System.Drawing.Color.Cyan;
             this.textBox1.Location = new System.Drawing.Point(255, 123);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(260, 22);
@@ -44,6 +45,7 @@
             // 
             // textBox2
             // 
+            this.textBox2.BackColor = System.Drawing.Color.Cyan;
             this.textBox2.Location = new System.Drawing.Point(255, 205);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(260, 22);
@@ -85,6 +87,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
