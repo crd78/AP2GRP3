@@ -1,4 +1,4 @@
-﻿namespace APPGSB
+namespace APPGSB
 {
     partial class Bienvenue
     {
