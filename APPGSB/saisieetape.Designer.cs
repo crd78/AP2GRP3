@@ -1,4 +1,4 @@
-﻿
+
 namespace APPGSB
 {
     partial class saisieetape

@@ -53,5 +53,12 @@ namespace APPGSB
         {
 
         }
+
+        private void saisieDécisionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmSaisieDecision form = new frmSaisieDecision();
+            form.Show();
+            this.Hide();
+        }
     }
 }

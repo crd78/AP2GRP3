@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-C:\Users\dias2\AP2GRP3\APPGSB\bin\Debug\APPGSB.exe.config
-C:\Users\dias2\AP2GRP3\APPGSB\bin\Debug\APPGSB.exe
-C:\Users\dias2\AP2GRP3\APPGSB\bin\Debug\APPGSB.pdb
-C:\Users\dias2\AP2GRP3\APPGSB\obj\Debug\APPGSB.csproj.AssemblyReference.cache
-C:\Users\dias2\AP2GRP3\APPGSB\obj\Debug\APPGSB.Properties.Resources.resources
-C:\Users\dias2\AP2GRP3\APPGSB\obj\Debug\APPGSB.csproj.GenerateResource.cache
-C:\Users\dias2\AP2GRP3\APPGSB\obj\Debug\APPGSB.csproj.CoreCompileInputs.cache
-C:\Users\dias2\AP2GRP3\APPGSB\obj\Debug\APPGSB.exe
-C:\Users\dias2\AP2GRP3\APPGSB\obj\Debug\APPGSB.pdb
-C:\Users\dias2\AP2GRP3\APPGSB\obj\Debug\APPGSB.Accueil.resources
-C:\Users\dias2\AP2GRP3\APPGSB\obj\Debug\APPGSB.Bienvenue.resources
 C:\Users\jffco\Desktop\AP2Groupe3\AP2GRP3\APPGSB\bin\Debug\APPGSB.exe.config
 C:\Users\jffco\Desktop\AP2Groupe3\AP2GRP3\APPGSB\bin\Debug\APPGSB.exe
 C:\Users\jffco\Desktop\AP2Groupe3\AP2GRP3\APPGSB\bin\Debug\APPGSB.pdb
@@ -18,55 +6,11 @@ C:\Users\jffco\Desktop\AP2Groupe3\AP2GRP3\APPGSB\obj\Debug\APPGSB.csproj.Suggest
 C:\Users\jffco\Desktop\AP2Groupe3\AP2GRP3\APPGSB\obj\Debug\APPGSB.Accueil.resources
 C:\Users\jffco\Desktop\AP2Groupe3\AP2GRP3\APPGSB\obj\Debug\APPGSB.AjoutMedic.resources
 C:\Users\jffco\Desktop\AP2Groupe3\AP2GRP3\APPGSB\obj\Debug\APPGSB.Bienvenue.resources
-C:\Users\jffco\Desktop\AP2Groupe3\AP2GRP3\APPGSB\obj\Debug\APPGSB.Properties.Resources.resources
-C:\Users\jffco\Desktop\AP2Groupe3\AP2GRP3\APPGSB\obj\Debug\APPGSB.csproj.GenerateResource.cache
-C:\Users\jffco\Desktop\AP2Groupe3\AP2GRP3\APPGSB\obj\Debug\APPGSB.csproj.CoreCompileInputs.cache
-C:\Users\jffco\Desktop\AP2Groupe3\AP2GRP3\APPGSB\obj\Debug\APPGSB.exe
-C:\Users\jffco\Desktop\AP2Groupe3\AP2GRP3\APPGSB\obj\Debug\APPGSB.pdb
 C:\Users\jffco\Desktop\AP2Groupe3\AP2GRP3\APPGSB\obj\Debug\APPGSB.frmSaisieDecision.resources
-=======
-C:\Users\dias2\AP2GRP3\APPGSB\bin\Debug\APPGSB.exe.config
-C:\Users\dias2\AP2GRP3\APPGSB\bin\Debug\APPGSB.exe
-C:\Users\dias2\AP2GRP3\APPGSB\bin\Debug\APPGSB.pdb
-C:\Users\dias2\AP2GRP3\APPGSB\obj\Debug\APPGSB.csproj.AssemblyReference.cache
-C:\Users\dias2\AP2GRP3\APPGSB\obj\Debug\APPGSB.Properties.Resources.resources
-C:\Users\dias2\AP2GRP3\APPGSB\obj\Debug\APPGSB.csproj.GenerateResource.cache
-C:\Users\dias2\AP2GRP3\APPGSB\obj\Debug\APPGSB.csproj.CoreCompileInputs.cache
-C:\Users\dias2\AP2GRP3\APPGSB\obj\Debug\APPGSB.exe
-C:\Users\dias2\AP2GRP3\APPGSB\obj\Debug\APPGSB.pdb
-C:\Users\dias2\AP2GRP3\APPGSB\obj\Debug\APPGSB.Accueil.resources
-C:\Users\dias2\AP2GRP3\APPGSB\obj\Debug\APPGSB.Bienvenue.resources
-C:\Users\lemercij\OneDrive - Établissement Saint-Adjutor\Documents\BTS2\AP\WorkSpace\Nouveau dossier\AP2GRP3\APPGSB\bin\Debug\APPGSB.exe.config
-C:\Users\lemercij\OneDrive - Établissement Saint-Adjutor\Documents\BTS2\AP\WorkSpace\Nouveau dossier\AP2GRP3\APPGSB\bin\Debug\APPGSB.exe
-C:\Users\lemercij\OneDrive - Établissement Saint-Adjutor\Documents\BTS2\AP\WorkSpace\Nouveau dossier\AP2GRP3\APPGSB\bin\Debug\APPGSB.pdb
-C:\Users\lemercij\OneDrive - Établissement Saint-Adjutor\Documents\BTS2\AP\WorkSpace\Nouveau dossier\AP2GRP3\APPGSB\obj\Debug\APPGSB.csproj.AssemblyReference.cache
-C:\Users\lemercij\OneDrive - Établissement Saint-Adjutor\Documents\BTS2\AP\WorkSpace\Nouveau dossier\AP2GRP3\APPGSB\obj\Debug\APPGSB.Accueil.resources
-C:\Users\lemercij\OneDrive - Établissement Saint-Adjutor\Documents\BTS2\AP\WorkSpace\Nouveau dossier\AP2GRP3\APPGSB\obj\Debug\APPGSB.AccueilJ.resources
-C:\Users\lemercij\OneDrive - Établissement Saint-Adjutor\Documents\BTS2\AP\WorkSpace\Nouveau dossier\AP2GRP3\APPGSB\obj\Debug\APPGSB.Bienvenue.resources
-C:\Users\lemercij\OneDrive - Établissement Saint-Adjutor\Documents\BTS2\AP\WorkSpace\Nouveau dossier\AP2GRP3\APPGSB\obj\Debug\APPGSB.Properties.Resources.resources
-C:\Users\lemercij\OneDrive - Établissement Saint-Adjutor\Documents\BTS2\AP\WorkSpace\Nouveau dossier\AP2GRP3\APPGSB\obj\Debug\APPGSB.csproj.GenerateResource.cache
-C:\Users\lemercij\OneDrive - Établissement Saint-Adjutor\Documents\BTS2\AP\WorkSpace\Nouveau dossier\AP2GRP3\APPGSB\obj\Debug\APPGSB.csproj.CoreCompileInputs.cache
-C:\Users\lemercij\OneDrive - Établissement Saint-Adjutor\Documents\BTS2\AP\WorkSpace\Nouveau dossier\AP2GRP3\APPGSB\obj\Debug\APPGSB.exe
-C:\Users\lemercij\OneDrive - Établissement Saint-Adjutor\Documents\BTS2\AP\WorkSpace\Nouveau dossier\AP2GRP3\APPGSB\obj\Debug\APPGSB.pdb
-C:\Users\lemercij\OneDrive - Établissement Saint-Adjutor\Documents\BTS2\AP\WorkSpace\Nouveau dossier\AP2GRP3\APPGSB\obj\Debug\APPGSB.AjoutMedic.resources
-C:\Users\lemercij\OneDrive - Établissement Saint-Adjutor\Documents\BTS2\AP\WorkSpace\Nouveau dossier\AP2GRP3\APPGSB\obj\Debug\APPGSB.WorkFlow.resources
-C:\Users\jffco\Desktop\AP2Groupe3\AP2GRP3\APPGSB\bin\Debug\APPGSB.exe.config
-C:\Users\jffco\Desktop\AP2Groupe3\AP2GRP3\APPGSB\bin\Debug\APPGSB.exe
-C:\Users\jffco\Desktop\AP2Groupe3\AP2GRP3\APPGSB\bin\Debug\APPGSB.pdb
-C:\Users\jffco\Desktop\AP2Groupe3\AP2GRP3\APPGSB\obj\Debug\APPGSB.csproj.AssemblyReference.cache
-C:\Users\jffco\Desktop\AP2Groupe3\AP2GRP3\APPGSB\obj\Debug\APPGSB.csproj.SuggestedBindingRedirects.cache
-C:\Users\jffco\Desktop\AP2Groupe3\AP2GRP3\APPGSB\obj\Debug\APPGSB.Accueil.resources
-C:\Users\jffco\Desktop\AP2Groupe3\AP2GRP3\APPGSB\obj\Debug\APPGSB.AccueilJ.resources
-C:\Users\jffco\Desktop\AP2Groupe3\AP2GRP3\APPGSB\obj\Debug\APPGSB.AjoutMedic.resources
-C:\Users\jffco\Desktop\AP2Groupe3\AP2GRP3\APPGSB\obj\Debug\APPGSB.Bienvenue.resources
 C:\Users\jffco\Desktop\AP2Groupe3\AP2GRP3\APPGSB\obj\Debug\APPGSB.Properties.Resources.resources
-C:\Users\jffco\Desktop\AP2Groupe3\AP2GRP3\APPGSB\obj\Debug\APPGSB.WorkFlow.resources
+C:\Users\jffco\Desktop\AP2Groupe3\AP2GRP3\APPGSB\obj\Debug\APPGSB.saisieetape.resources
+C:\Users\jffco\Desktop\AP2Groupe3\AP2GRP3\APPGSB\obj\Debug\APPGSB.Workflow.resources
 C:\Users\jffco\Desktop\AP2Groupe3\AP2GRP3\APPGSB\obj\Debug\APPGSB.csproj.GenerateResource.cache
 C:\Users\jffco\Desktop\AP2Groupe3\AP2GRP3\APPGSB\obj\Debug\APPGSB.csproj.CoreCompileInputs.cache
 C:\Users\jffco\Desktop\AP2Groupe3\AP2GRP3\APPGSB\obj\Debug\APPGSB.exe
 C:\Users\jffco\Desktop\AP2Groupe3\AP2GRP3\APPGSB\obj\Debug\APPGSB.pdb
-C:\Users\lemercij\OneDrive - Établissement Saint-Adjutor\Documents\BTS2\AP\WorkSpace\Nouveau dossier\AP2GRP3\APPGSB\obj\Debug\APPGSB.etapenormee.resources
-C:\Users\lemercij\OneDrive - Établissement Saint-Adjutor\Documents\BTS2\AP\WorkSpace\Nouveau dossier\AP2GRP3\APPGSB\obj\Debug\APPGSB.medicautorise.resources
-C:\Users\lemercij\OneDrive - Établissement Saint-Adjutor\Documents\BTS2\AP\WorkSpace\Nouveau dossier\AP2GRP3\APPGSB\obj\Debug\APPGSB.nbmedicament.resources
-C:\Users\lemercij\OneDrive - Établissement Saint-Adjutor\Documents\BTS2\AP\WorkSpace\Nouveau dossier\AP2GRP3\APPGSB\obj\Debug\APPGSB.saisieetape.resources
->>>>>>> accueil

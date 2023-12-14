@@ -26,8 +26,8 @@ namespace APPGSB
         private void button1_Click(object sender, EventArgs e)
         {
             //ouvre l'accueil
-            AccueilJ AccueilJ = new AccueilJ();
-            AccueilJ.Show();
+            Accueil Accueil = new Accueil();
+            Accueil.Show();
             this.Hide();
         }
 
@@ -43,7 +43,6 @@ namespace APPGSB
             bd.lireLesEtapes();
             globale.lesDecisions = new List<decisions>();
             bd.lireLesDecisions();
-            int a = 0;
         }
     }
 }
