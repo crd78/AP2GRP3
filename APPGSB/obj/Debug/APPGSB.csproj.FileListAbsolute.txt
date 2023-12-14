@@ -14,3 +14,4 @@ C:\Users\jffco\Desktop\AP2Groupe3\AP2GRP3\APPGSB\obj\Debug\APPGSB.csproj.Generat
 C:\Users\jffco\Desktop\AP2Groupe3\AP2GRP3\APPGSB\obj\Debug\APPGSB.csproj.CoreCompileInputs.cache
 C:\Users\jffco\Desktop\AP2Groupe3\AP2GRP3\APPGSB\obj\Debug\APPGSB.exe
 C:\Users\jffco\Desktop\AP2Groupe3\AP2GRP3\APPGSB\obj\Debug\APPGSB.pdb
+C:\Users\jffco\Desktop\AP2Groupe3\AP2GRP3\APPGSB\obj\Debug\APPGSB.frmEtapesNormees.resources

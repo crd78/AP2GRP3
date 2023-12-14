@@ -187,5 +187,37 @@ namespace SQL_Server_Test
                 return false;
             }
         }
+        public static Boolean updateEtape(
+        int numEtape,
+        string norme,
+        string date
+)
+        {
+            SqlCommand maRequete = new SqlCommand("prc_modifierEtape", Connexion.cnx);
+            maRequete.CommandType = System.Data.CommandType.StoredProcedure;
+
+            // Ajouter les paramètres à la procédure stockée
+            SqlParameter paramNumEtape = new SqlParameter("@p_idEtp", System.Data.SqlDbType.Int);
+            paramNumEtape.Value = numEtape;
+            SqlParameter paramNorme = new SqlParameter("@p_norme", System.Data.SqlDbType.NVarChar,50);
+            paramNorme.Value = norme;
+            SqlParameter paramDate = new SqlParameter("@p_date", System.Data.SqlDbType.NVarChar, 50);
+            paramDate.Value = date;
+
+            maRequete.Parameters.Add(paramNumEtape);
+            maRequete.Parameters.Add(paramNorme);
+            maRequete.Parameters.Add(paramDate);
+
+            // exécuter la procédure stockée
+            try
+            {
+                maRequete.ExecuteNonQuery();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
     }
 }

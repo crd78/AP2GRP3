@@ -60,5 +60,12 @@ namespace APPGSB
             form.Show();
             this.Hide();
         }
+
+        private void miseÀJourToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmEtapesNormees form = new frmEtapesNormees();
+            form.Show();
+            this.Hide();
+        }
     }
 }

@@ -83,6 +83,12 @@
     <Compile Include="Connexion.cs" />
     <Compile Include="decisions.cs" />
     <Compile Include="famille.cs" />
+    <Compile Include="frmEtapesNormees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEtapesNormees.Designer.cs">
+      <DependentUpon>frmEtapesNormees.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmSaisieDecision.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -103,6 +109,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Bienvenue.resx">
       <DependentUpon>Bienvenue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEtapesNormees.resx">
+      <DependentUpon>frmEtapesNormees.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmSaisieDecision.resx">
       <DependentUpon>frmSaisieDecision.cs</DependentUpon>

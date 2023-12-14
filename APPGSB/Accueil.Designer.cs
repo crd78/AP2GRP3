@@ -62,6 +62,7 @@ namespace APPGSB
             this.miseÀJourToolStripMenuItem.Name = "miseÀJourToolStripMenuItem";
             this.miseÀJourToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.miseÀJourToolStripMenuItem.Text = "Mise à jour";
+            this.miseÀJourToolStripMenuItem.Click += new System.EventHandler(this.miseÀJourToolStripMenuItem_Click);
             // 
             // toolStripMenuItem2
             // 
