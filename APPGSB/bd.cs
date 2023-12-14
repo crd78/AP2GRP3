@@ -81,7 +81,7 @@ namespace SQL_Server_Test
         }
         public static void lireLesMedicEnVerif()
         {
-            globale.lesMedicaments.Clear();
+            globale.lesMedicEnVerif.Clear();
 
             //objet SQLCommand pour définir la procédure stockée à utiliser
             SqlCommand maRequete = new SqlCommand("prc_medicamentEnVerif", Connexion.cnx);
@@ -100,41 +100,15 @@ namespace SQL_Server_Test
                 string effets = SqlExec["MED_EFFETS"].ToString();
                 string contreindic = SqlExec["MED_CONTREINDIC"].ToString();
                 string amm = SqlExec["MED_AMM"].ToString();
-                string etp_num = SqlExec["MED_ETP_NUM"].ToString();
+                string etp_num = SqlExec["MED_ETP_NUM"].ToString();  
                 string libelleFamille = SqlExec["FAM_LIBELLE"].ToString();
 
-
+                famille laFamille = new famille(fam_code, libelleFamille);
                 medicament leMedicament = new medicament(depotlegal, nomcommercial, fam_code,composition,effets,contreindic,amm,etp_num);
             }
+            
         }
-        public static void lireLesMedicaments()
-        {
-            globale.lesMedicaments.Clear();
-
-            //objet SQLCommand pour définir la procédure stockée à utiliser
-            SqlCommand maRequete = new SqlCommand("prc_medicament", Connexion.cnx);
-            maRequete.CommandType = System.Data.CommandType.StoredProcedure;
-
-            // exécuter la procedure stockée dans un curseur 
-            SqlDataReader SqlExec = maRequete.ExecuteReader();
-
-            //boucle de lecture des clients avec ajout dans la collection
-            while (SqlExec.Read())
-            {
-                string depotlegal = SqlExec["MED_DEPOTLEGAL"].ToString();
-                string nomcommercial = SqlExec["MED_NOMCOMMERCIAL"].ToString();
-                string fam_code = SqlExec["FAM_CODE"].ToString();
-                string composition = SqlExec["MED_COMPOSITION"].ToString();
-                string effets = SqlExec["MED_EFFETS"].ToString();
-                string contreindic = SqlExec["MED_CONTREINDIC"].ToString();
-                string amm = SqlExec["MED_AMM"].ToString();
-                string etp_num = SqlExec["MED_ETP_NUM"].ToString();
-
-                medicament leMedicament = new medicament(depotlegal, nomcommercial, fam_code, composition, effets,contreindic,amm,etp_num) ;
-
-                globale.lesMedicaments.Add(depotlegal, leMedicament);
-            }
-        }
+       
         public static Boolean ajouterMedicament(
         string depotLegal,
         string nomCommercial,

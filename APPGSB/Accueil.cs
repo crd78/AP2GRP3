@@ -55,5 +55,12 @@ namespace APPGSB
             this.Hide();
             form.Show();
         }
+
+        private void enValidatiionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            medicEnVerif form = new medicEnVerif();
+            this.Hide();
+            form.Show();
+        }
     }
 }

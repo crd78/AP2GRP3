@@ -20,16 +20,16 @@ namespace APPGSB
 
         private void medicEnVerif_Load(object sender, EventArgs e)
         {
-            foreach(famille uneFamille in globale.lesFamilles.Values)
+            foreach(famille laFamille in globale.lesFamilles.Values)
             {
-               foreach(medicament unMedicament in uneFamille.getLesMedicaments())
+               foreach(medicament leMedicament in laFamille.getLesMedicaments())
                 {
-                    if(unMedicament.getCodeFamille()== uneFamille.getId())
+                    if(leMedicament.getCodeFamille()== laFamille.getId())
                     {
                         ListViewItem uneLigne = new ListViewItem();
-                        uneLigne.Text = unMedicament.getDepotLegal();
-                        uneLigne.SubItems.Add(unMedicament.getNomCommercial());
-                        uneLigne.SubItems.Add(uneFamille.getLibelle());
+                        uneLigne.Text = leMedicament.getDepotLegal();
+                        uneLigne.SubItems.Add(leMedicament.getNomCommercial());
+                        uneLigne.SubItems.Add(laFamille.getLibelle());
 
 
                     }

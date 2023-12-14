@@ -44,7 +44,6 @@
             // menuStrip1
             // 
             this.menuStrip1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Visible;
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -55,7 +54,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.menuStrip1.Size = new System.Drawing.Size(2198, 35);
+            this.menuStrip1.Size = new System.Drawing.Size(1710, 28);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -65,26 +64,26 @@
             this.saisieDécisionToolStripMenuItem,
             this.miseÀJourToolStripMenuItem});
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(80, 29);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(67, 24);
             this.toolStripMenuItem1.Text = "Etapes";
             // 
             // saisieDécisionToolStripMenuItem
             // 
             this.saisieDécisionToolStripMenuItem.Name = "saisieDécisionToolStripMenuItem";
-            this.saisieDécisionToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.saisieDécisionToolStripMenuItem.Size = new System.Drawing.Size(189, 26);
             this.saisieDécisionToolStripMenuItem.Text = "Saisie décision";
             this.saisieDécisionToolStripMenuItem.Click += new System.EventHandler(this.saisieDécisionToolStripMenuItem_Click);
             // 
             // miseÀJourToolStripMenuItem
             // 
             this.miseÀJourToolStripMenuItem.Name = "miseÀJourToolStripMenuItem";
-            this.miseÀJourToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.miseÀJourToolStripMenuItem.Size = new System.Drawing.Size(189, 26);
             this.miseÀJourToolStripMenuItem.Text = "Mise à jour";
             // 
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(104, 29);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(86, 24);
             this.toolStripMenuItem2.Text = "Workflow";
             // 
             // toolStripMenuItem3
@@ -93,42 +92,43 @@
             this.ajoutToolStripMenuItem,
             this.enValidatiionToolStripMenuItem});
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(126, 29);
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(106, 24);
             this.toolStripMenuItem3.Text = "Médicament";
             // 
             // ajoutToolStripMenuItem
             // 
             this.ajoutToolStripMenuItem.Name = "ajoutToolStripMenuItem";
-            this.ajoutToolStripMenuItem.Size = new System.Drawing.Size(219, 34);
+            this.ajoutToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.ajoutToolStripMenuItem.Text = "Ajout";
             this.ajoutToolStripMenuItem.Click += new System.EventHandler(this.ajoutToolStripMenuItem_Click);
             // 
             // enValidatiionToolStripMenuItem
             // 
             this.enValidatiionToolStripMenuItem.Name = "enValidatiionToolStripMenuItem";
-            this.enValidatiionToolStripMenuItem.Size = new System.Drawing.Size(219, 34);
+            this.enValidatiionToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.enValidatiionToolStripMenuItem.Text = "En validatiion";
+            this.enValidatiionToolStripMenuItem.Click += new System.EventHandler(this.enValidatiionToolStripMenuItem_Click);
             // 
             // quitterToolStripMenuItem
             // 
             this.quitterToolStripMenuItem.Name = "quitterToolStripMenuItem";
-            this.quitterToolStripMenuItem.Size = new System.Drawing.Size(83, 29);
+            this.quitterToolStripMenuItem.Size = new System.Drawing.Size(69, 24);
             this.quitterToolStripMenuItem.Text = "Quitter";
             this.quitterToolStripMenuItem.Click += new System.EventHandler(this.quitterToolStripMenuItem_Click);
             // 
             // Accueil
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Snow;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(2198, 931);
+            this.ClientSize = new System.Drawing.Size(1710, 745);
             this.Controls.Add(this.menuStrip1);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "Accueil";
             this.Text = "Accueil";

@@ -37,12 +37,16 @@ namespace APPGSB
             Connexion.cnx.ConnectionString = Connexion.nomServeur;
             Connexion.cnx.Open();
             globale.lesFamilles = new Dictionary<string, famille>();
-            globale.lesMedicaments = new Dictionary<string, medicament>();
-            bd.lireLesMedicaments();
+            bd.lireLesFamilles();
+           
             globale.lesEtapes = new List<etapes>();
             bd.lireLesEtapes();
             globale.lesDecisions = new List<decisions>();
             bd.lireLesDecisions();
+            globale.lesMedicEnVerif = new List<medicament>();
+            bd.lireLesMedicEnVerif();
+        
+           
             int a = 0;
         }
     }
