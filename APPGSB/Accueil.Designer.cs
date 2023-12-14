@@ -38,6 +38,7 @@
             this.enValidatiionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.quitterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
+            this.connexionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,6 +51,7 @@
             this.toolStripMenuItem1,
             this.toolStripMenuItem2,
             this.toolStripMenuItem3,
+            this.connexionToolStripMenuItem,
             this.quitterToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
@@ -70,14 +72,14 @@
             // saisieDécisionToolStripMenuItem
             // 
             this.saisieDécisionToolStripMenuItem.Name = "saisieDécisionToolStripMenuItem";
-            this.saisieDécisionToolStripMenuItem.Size = new System.Drawing.Size(189, 26);
+            this.saisieDécisionToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.saisieDécisionToolStripMenuItem.Text = "Saisie décision";
             this.saisieDécisionToolStripMenuItem.Click += new System.EventHandler(this.saisieDécisionToolStripMenuItem_Click);
             // 
             // miseÀJourToolStripMenuItem
             // 
             this.miseÀJourToolStripMenuItem.Name = "miseÀJourToolStripMenuItem";
-            this.miseÀJourToolStripMenuItem.Size = new System.Drawing.Size(189, 26);
+            this.miseÀJourToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.miseÀJourToolStripMenuItem.Text = "Mise à jour";
             // 
             // toolStripMenuItem2
@@ -98,14 +100,14 @@
             // ajoutToolStripMenuItem
             // 
             this.ajoutToolStripMenuItem.Name = "ajoutToolStripMenuItem";
-            this.ajoutToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.ajoutToolStripMenuItem.Size = new System.Drawing.Size(182, 26);
             this.ajoutToolStripMenuItem.Text = "Ajout";
             this.ajoutToolStripMenuItem.Click += new System.EventHandler(this.ajoutToolStripMenuItem_Click);
             // 
             // enValidatiionToolStripMenuItem
             // 
             this.enValidatiionToolStripMenuItem.Name = "enValidatiionToolStripMenuItem";
-            this.enValidatiionToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.enValidatiionToolStripMenuItem.Size = new System.Drawing.Size(182, 26);
             this.enValidatiionToolStripMenuItem.Text = "En validatiion";
             this.enValidatiionToolStripMenuItem.Click += new System.EventHandler(this.enValidatiionToolStripMenuItem_Click);
             // 
@@ -115,6 +117,13 @@
             this.quitterToolStripMenuItem.Size = new System.Drawing.Size(69, 24);
             this.quitterToolStripMenuItem.Text = "Quitter";
             this.quitterToolStripMenuItem.Click += new System.EventHandler(this.quitterToolStripMenuItem_Click);
+            // 
+            // connexionToolStripMenuItem
+            // 
+            this.connexionToolStripMenuItem.Name = "connexionToolStripMenuItem";
+            this.connexionToolStripMenuItem.Size = new System.Drawing.Size(93, 24);
+            this.connexionToolStripMenuItem.Text = "Connexion";
+            this.connexionToolStripMenuItem.Click += new System.EventHandler(this.connexionToolStripMenuItem_Click);
             // 
             // Accueil
             // 
@@ -128,7 +137,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "Accueil";
             this.Text = "Accueil";
@@ -151,6 +160,7 @@
         private System.Windows.Forms.ToolStripMenuItem saisieDécisionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem miseÀJourToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem quitterToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem connexionToolStripMenuItem;
     }
 }
 

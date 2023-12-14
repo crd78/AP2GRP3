@@ -15,9 +15,19 @@ namespace APPGSB
         public Accueil()
         {
             InitializeComponent();
+            ActiverDesactiverMenu();
+        }
+        private bool utilisateurConnecte = false;
+        private void ActiverDesactiverMenu()
+        {
+            ajoutToolStripMenuItem.Enabled = utilisateurConnecte;
+            quitterToolStripMenuItem.Enabled = utilisateurConnecte;
+            saisieDécisionToolStripMenuItem.Enabled = utilisateurConnecte;
+            enValidatiionToolStripMenuItem.Enabled = utilisateurConnecte;
+            connexionToolStripMenuItem.Enabled = !utilisateurConnecte;
         }
 
-      
+
 
         private void ajoutToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -61,6 +71,23 @@ namespace APPGSB
             medicEnVerif form = new medicEnVerif();
             this.Hide();
             form.Show();
+        }
+
+        private void connexionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmConnexioncs form = new FrmConnexioncs();
+            this.Hide();
+
+            // Afficher la fenêtre de connexion en tant que dialogue
+            if (form.ShowDialog() == DialogResult.OK)
+            {
+                // Mettez à jour l'état de la connexion si l'utilisateur est connecté
+                utilisateurConnecte = true;
+                ActiverDesactiverMenu();
+
+                // Ne créez pas une nouvelle instance d'Accueil
+                this.Show();  // Montrez la fenêtre actuelle
+            }
         }
     }
 }

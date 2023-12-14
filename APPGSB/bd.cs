@@ -1,10 +1,12 @@
 ﻿using APPGSB;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace SQL_Server_Test
 {
@@ -78,6 +80,43 @@ namespace SQL_Server_Test
 
                 globale.lesEtapes.Add(etape);
             }
+        }
+        public static bool connexionUser(string username, string password)
+        {
+            bool credentialsMatch = false;
+
+            try
+            {
+                // Assurez-vous que la connexion est initialisée et ouverte
+                if (Connexion.cnx != null && Connexion.cnx.State == ConnectionState.Open)
+                {
+                    using (SqlCommand maRequete = new SqlCommand("prc_userConnection", Connexion.cnx))
+                    {
+                        maRequete.CommandType = CommandType.StoredProcedure;
+
+                        // Ajoutez les paramètres à la procédure stockée
+                        maRequete.Parameters.Add("@p_USERNAME", SqlDbType.VarChar).Value = username;
+                        maRequete.Parameters.Add("@p_MOTDEPASSE", SqlDbType.VarChar).Value = password;
+
+                        // Exécutez la procédure stockée et vérifiez si les identifiants correspondent
+                        using (SqlDataReader reader = maRequete.ExecuteReader())
+                        {
+                            credentialsMatch = reader.HasRows;
+                        }
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("La connexion à la base de données n'est pas ouverte.");
+                }
+            }
+            catch (Exception ex)
+            {
+                // Gérez les exceptions ici selon vos besoins
+                MessageBox.Show("Une erreur s'est produite : " + ex.Message);
+            }
+
+            return credentialsMatch;
         }
         public static void lireLesMedicEnVerif()
         {
