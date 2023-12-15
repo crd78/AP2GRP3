@@ -45,7 +45,7 @@
             this.listView1.HideSelection = false;
             this.listView1.Location = new System.Drawing.Point(52, 102);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(1137, 337);
+            this.listView1.Size = new System.Drawing.Size(1126, 337);
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -71,7 +71,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(330, 35);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(333, 32);
+            this.label1.Size = new System.Drawing.Size(334, 32);
             this.label1.TabIndex = 1;
             this.label1.Text = "En cours de vérification";
             // 

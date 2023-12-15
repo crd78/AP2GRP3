@@ -131,7 +131,6 @@ namespace APPGSB
             this.Name = "Accueil";
             this.Text = "Accueil";
             this.TransparencyKey = System.Drawing.Color.Transparent;
-            this.Load += new System.EventHandler(this.Accueil_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

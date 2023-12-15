@@ -118,6 +118,33 @@ namespace SQL_Server_Test
 
             return credentialsMatch;
         }
+        public static void lireLesMedic()
+        {
+            globale.lesMedicaments.Clear();
+
+            //objet SQLCommand pour définir la procédure stockée à utiliser
+            SqlCommand maRequete = new SqlCommand("prc_medicament", Connexion.cnx);
+            maRequete.CommandType = System.Data.CommandType.StoredProcedure;
+
+
+            // exécuter la procedure stockée dans un curseur
+            SqlDataReader SqlExec = maRequete.ExecuteReader();
+
+            //boucle de lecture des medic en verifiaction avec ajout dans la collection
+            while (SqlExec.Read())
+            {
+                string depotlegal = SqlExec["MED_DEPOTLEGAL"].ToString();
+                string nomcommercial = SqlExec["MED_NOMCOMMERCIAL"].ToString();
+                string etape = SqlExec["ETP_NUM"].ToString();
+                string libetape = SqlExec["ETP_LIBELLE"].ToString();
+                string libdecision = SqlExec["DCS_LIBELLE"].ToString();
+                string normeetape = SqlExec["ETP_NORME"].ToString();
+                string dateetapenorme = SqlExec["ETP_DATE_NORME"].ToString();
+            }
+
+
+
+        }
         public static void lireLesMedicEnVerif()
         {
             globale.lesMedicaments.Clear();
@@ -228,6 +255,7 @@ namespace SQL_Server_Test
             {
                 return false;
             }
+
         }
     }
 }

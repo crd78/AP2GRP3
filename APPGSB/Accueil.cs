@@ -24,7 +24,6 @@ namespace APPGSB
             quitterToolStripMenuItem.Enabled = utilisateurConnecte;
             saisieDécisionToolStripMenuItem.Enabled = utilisateurConnecte;
             enValidatiionToolStripMenuItem.Enabled = utilisateurConnecte;
-            connexionToolStripMenuItem.Enabled = !utilisateurConnecte;
         }
 
 

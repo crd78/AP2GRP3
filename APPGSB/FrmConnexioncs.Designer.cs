@@ -69,7 +69,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(279, 67);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(219, 32);
+            this.label1.Size = new System.Drawing.Size(220, 32);
             this.label1.TabIndex = 3;
             this.label1.Text = "Nom utilisateur";
             // 
@@ -79,7 +79,7 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(289, 158);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(195, 32);
+            this.label2.Size = new System.Drawing.Size(196, 32);
             this.label2.TabIndex = 4;
             this.label2.Text = "Mot de passe";
             // 
@@ -96,6 +96,7 @@
             this.Controls.Add(this.textBox1);
             this.Name = "FrmConnexioncs";
             this.Text = "FrmConnexioncs";
+            this.Load += new System.EventHandler(this.FrmConnexioncs_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

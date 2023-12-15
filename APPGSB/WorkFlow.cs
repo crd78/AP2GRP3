@@ -17,8 +17,10 @@ namespace APPGSB
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void WorkFlow_Load(object sender, EventArgs e)
         {
+            // Effacez les éléments précédents de la ListView une seule fois avant la boucle
+            lv_medicament.Items.Clear();
 
         }
     }

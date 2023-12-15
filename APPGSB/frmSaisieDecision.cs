@@ -85,5 +85,10 @@ namespace APPGSB
                 }
             }
         }
+
+        private void cbEtapes_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

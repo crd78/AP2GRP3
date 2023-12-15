@@ -42,6 +42,9 @@ namespace APPGSB
             }
         }
 
-     
+        private void FrmConnexioncs_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
