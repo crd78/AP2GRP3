@@ -50,7 +50,7 @@ namespace APPGSB
             this.ClientSize = new System.Drawing.Size(1286, 809);
             this.Controls.Add(this.label1);
             this.Name = "WorkFlow";
-            this.Text = "WorkFlow";
+            this.Text = "o";
             this.ResumeLayout(false);
             this.PerformLayout();
 

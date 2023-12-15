@@ -63,6 +63,16 @@ namespace APPGSB.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap gsb__1_ {
+            get {
+                object obj = ResourceManager.GetObject("gsb (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap image_2023_12_01_170618903_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("image_2023-12-01_170618903-removebg-preview", resourceCulture);

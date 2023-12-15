@@ -1,4 +1,4 @@
-﻿
+
 namespace APPGSB
 {
     partial class Accueil_GSB
@@ -45,6 +45,7 @@ namespace APPGSB
             this.panel1.SuspendLayout();
             this.panelLogo.SuspendLayout();
             this.panelTitleBar.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -61,7 +62,7 @@ namespace APPGSB
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(489, 755);
+            this.panel1.Size = new System.Drawing.Size(489, 751);
             this.panel1.TabIndex = 0;
             // 
             // btn_encoursdevlidation
@@ -227,7 +228,7 @@ namespace APPGSB
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1450, 755);
+            this.ClientSize = new System.Drawing.Size(1450, 751);
             this.Controls.Add(this.panelbureau);
             this.Controls.Add(this.panelTitleBar);
             this.Controls.Add(this.panel1);
@@ -238,6 +239,7 @@ namespace APPGSB
             this.panelLogo.ResumeLayout(false);
             this.panelTitleBar.ResumeLayout(false);
             this.panelTitleBar.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
