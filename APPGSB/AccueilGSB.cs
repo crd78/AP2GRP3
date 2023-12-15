@@ -80,5 +80,15 @@ namespace APPGSB
         {
 
         }
+
+        private void lbtitle_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_connexion_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
