@@ -42,6 +42,10 @@ namespace APPGSB
             }
         }
 
-     
+        private void FrmConnexioncs_Load(object sender, EventArgs e)
+        {
+            textBox2.PasswordChar = '*';
+
+        }
     }
 }
