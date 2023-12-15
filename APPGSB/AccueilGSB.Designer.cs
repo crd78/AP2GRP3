@@ -45,7 +45,6 @@ namespace APPGSB
             this.panel1.SuspendLayout();
             this.panelLogo.SuspendLayout();
             this.panelTitleBar.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -239,7 +238,6 @@ namespace APPGSB
             this.panelLogo.ResumeLayout(false);
             this.panelTitleBar.ResumeLayout(false);
             this.panelTitleBar.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
