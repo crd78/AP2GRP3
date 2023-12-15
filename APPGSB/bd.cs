@@ -123,7 +123,7 @@ namespace SQL_Server_Test
             globale.lesMedicaments.Clear();
 
             //objet SQLCommand pour définir la procédure stockée à utiliser
-            SqlCommand maRequete = new SqlCommand("prc_medicament", Connexion.cnx);
+            SqlCommand maRequete = new SqlCommand("PRC_MEDICAMENT", Connexion.cnx);
             maRequete.CommandType = System.Data.CommandType.StoredProcedure;
 
 
@@ -144,14 +144,14 @@ namespace SQL_Server_Test
                 int etp_num_int = int.Parse(etp_num);
                 string normeetape = SqlExec["ETP_NORME"].ToString();
                 string dateetapenorme = SqlExec["ETP_DATE_NORME"].ToString();
-                string libelleFamille = SqlExec["FAM_LIBELLE"].ToString();
                 string etp_libelle = SqlExec["ETP_LIBELLE"].ToString();
                 string estNormee = SqlExec["estNormee"].ToString();
                 string libelledecision = SqlExec["DCS_LIBELLE"].ToString();
                 string libelleid = SqlExec["DCS_ID"].ToString();
+                string familelib = SqlExec["FAM_LIBELLE"].ToString();
                 int libid = int.Parse(libelleid);
 
-                famille laFamille = new famille(fam_code, libelleFamille);
+                famille lafamille = new famille(fam_code, familelib);
                 medicament leMedicament = new medicament(depotlegal, nomcommercial, fam_code, composition, effets, contreindic, amm, etp_num);
                 globale.lesMedicaments.Add(depotlegal, leMedicament);
                 etapes leEtape = new etapes(etp_num_int,etp_libelle, normeetape, dateetapenorme,estNormee);

@@ -61,7 +61,7 @@ namespace APPGSB
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(489, 751);
+            this.panel1.Size = new System.Drawing.Size(489, 769);
             this.panel1.TabIndex = 0;
             // 
             // btn_encoursdevlidation
@@ -219,7 +219,7 @@ namespace APPGSB
             this.panelbureau.BackColor = System.Drawing.Color.Silver;
             this.panelbureau.Location = new System.Drawing.Point(490, 151);
             this.panelbureau.Name = "panelbureau";
-            this.panelbureau.Size = new System.Drawing.Size(1376, 604);
+            this.panelbureau.Size = new System.Drawing.Size(1376, 618);
             this.panelbureau.TabIndex = 2;
             this.panelbureau.Paint += new System.Windows.Forms.PaintEventHandler(this.panelbureau_Paint);
             // 
@@ -227,7 +227,7 @@ namespace APPGSB
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1860, 751);
+            this.ClientSize = new System.Drawing.Size(1860, 769);
             this.Controls.Add(this.panelbureau);
             this.Controls.Add(this.panelTitleBar);
             this.Controls.Add(this.panel1);
