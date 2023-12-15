@@ -14,7 +14,6 @@ namespace SQL_Server_Test
         public static Dictionary<string,famille> lesFamilles;
         public static List<etapes> lesEtapes;
         public static List<decisions> lesDecisions;
-        public static List<Workflow> lesWorkflows;
         public static List<User> lesUser;
        
     }

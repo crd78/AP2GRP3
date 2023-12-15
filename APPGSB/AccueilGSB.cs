@@ -12,14 +12,27 @@ namespace APPGSB
 {
     public partial class Accueil_GSB : Form
     {
-        //Champ
-        private Button currentButton;
-        private Random random;
-        private int tempIndex;
+        
+    
 
         public Accueil_GSB()
         {
             InitializeComponent();
+            ActiverDesactiverMenu();
+        }
+        private bool utilisateurConnecte = false;
+        private void ActiverDesactiverMenu()
+        {
+            btn_ajoutmedicament.Enabled = utilisateurConnecte;
+            btn_encoursdevlidation.Enabled = utilisateurConnecte;
+            btn_saisieetape.Enabled = utilisateurConnecte;
+            btn_majetape.Enabled = utilisateurConnecte;
+            btn_worfklow.Enabled = utilisateurConnecte;
+            btn_autoriseparfamille.Enabled= utilisateurConnecte;
+
+
+
+
         }
 
         private void Accueil_GSB_Load(object sender, EventArgs e)
@@ -45,14 +58,10 @@ namespace APPGSB
 
         private void btn_saisieetape_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new saisieetape(), sender);
+            OpenChildForm(new frmSaisieDecision(), sender);
         }
 
-        private void btn_majetape_Click(object sender, EventArgs e)
-        {
-            OpenChildForm(new etapenormee(), sender);
-
-        }
+       
 
         private void btn_ajoutmedicament_Click(object sender, EventArgs e)
         {
@@ -60,35 +69,39 @@ namespace APPGSB
 
         }
 
-        private void btn_worfklow_Click(object sender, EventArgs e)
-        {
-            OpenChildForm(new WorkFlow(), sender);
-        }
-
-        private void btn_autoriseparfamille_Click(object sender, EventArgs e)
-        {
-            OpenChildForm(new medicautorise(), sender);
-        }
+    
+     
 
         private void btn_encoursdevlidation_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new nbmedicament(), sender);
+            OpenChildForm(new medicEnVerif(), sender);
 
+        }
+
+       
+      
+
+        private void btn_connexion_Click(object sender, EventArgs e)
+        {
+            FrmConnexioncs form = new FrmConnexioncs();
+            this.Hide();
+
+            // Afficher la fenêtre de connexion en tant que dialogue
+            if (form.ShowDialog() == DialogResult.OK)
+            {
+                // Mettez à jour l'état de la connexion si l'utilisateur est connecté
+                utilisateurConnecte = true;
+                ActiverDesactiverMenu();
+
+                // Ne créez pas une nouvelle instance d'Accueil
+                this.Show();  // Montrez la fenêtre actuelle
+            }
         }
 
         private void panelbureau_Paint(object sender, PaintEventArgs e)
         {
 
         }
-
-        private void lbtitle_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btn_connexion_Click(object sender, EventArgs e)
-        {
-
-        }
+       
     }
 }

@@ -10,6 +10,6 @@ namespace APPGSB
     class Connexion
     {
         public static SqlConnection cnx;
-        public static String nomServeur = "Data Source=BTS2022-22\\SQLEXPRESS02;Initial Catalog=GSB_gesAMM;Integrated Security=True;MultipleActiveResultSets=True";
+        public static String nomServeur = "Data Source=BTS2022-31\\SQLEXPRESS;Initial Catalog=GSB_gesAMM;Integrated Security=True;MultipleActiveResultSets=True";
     }
 }

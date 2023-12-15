@@ -38,10 +38,10 @@ namespace APPGSB
             this.btn_saisieetape = new System.Windows.Forms.Button();
             this.btn_accueil = new System.Windows.Forms.Button();
             this.panelLogo = new System.Windows.Forms.Panel();
+            this.btn_connexion = new System.Windows.Forms.Button();
             this.panelTitleBar = new System.Windows.Forms.Panel();
             this.lbtitle = new System.Windows.Forms.Label();
             this.panelbureau = new System.Windows.Forms.Panel();
-            this.btn_connexion = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panelLogo.SuspendLayout();
             this.panelTitleBar.SuspendLayout();
@@ -92,7 +92,6 @@ namespace APPGSB
             this.btn_autoriseparfamille.TabIndex = 6;
             this.btn_autoriseparfamille.Text = "Médicament autorisés par famille";
             this.btn_autoriseparfamille.UseVisualStyleBackColor = true;
-            this.btn_autoriseparfamille.Click += new System.EventHandler(this.btn_autoriseparfamille_Click);
             // 
             // btn_worfklow
             // 
@@ -107,7 +106,6 @@ namespace APPGSB
             this.btn_worfklow.TabIndex = 5;
             this.btn_worfklow.Text = "Consultation WorkFlow";
             this.btn_worfklow.UseVisualStyleBackColor = true;
-            this.btn_worfklow.Click += new System.EventHandler(this.btn_worfklow_Click);
             // 
             // btn_ajoutmedicament
             // 
@@ -137,7 +135,6 @@ namespace APPGSB
             this.btn_majetape.TabIndex = 3;
             this.btn_majetape.Text = "Mise à jour étapes normées";
             this.btn_majetape.UseVisualStyleBackColor = true;
-            this.btn_majetape.Click += new System.EventHandler(this.btn_majetape_Click);
             // 
             // btn_saisieetape
             // 
@@ -178,36 +175,6 @@ namespace APPGSB
             this.panelLogo.Size = new System.Drawing.Size(489, 151);
             this.panelLogo.TabIndex = 0;
             // 
-            // panelTitleBar
-            // 
-            this.panelTitleBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.panelTitleBar.Controls.Add(this.lbtitle);
-            this.panelTitleBar.Location = new System.Drawing.Point(490, 0);
-            this.panelTitleBar.Name = "panelTitleBar";
-            this.panelTitleBar.Size = new System.Drawing.Size(961, 151);
-            this.panelTitleBar.TabIndex = 1;
-            // 
-            // lbtitle
-            // 
-            this.lbtitle.AutoSize = true;
-            this.lbtitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.lbtitle.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbtitle.Location = new System.Drawing.Point(431, 69);
-            this.lbtitle.Name = "lbtitle";
-            this.lbtitle.Size = new System.Drawing.Size(121, 29);
-            this.lbtitle.TabIndex = 2;
-            this.lbtitle.Text = "ACCUEIL";
-            this.lbtitle.Click += new System.EventHandler(this.lbtitle_Click);
-            // 
-            // panelbureau
-            // 
-            this.panelbureau.BackColor = System.Drawing.Color.Silver;
-            this.panelbureau.Location = new System.Drawing.Point(490, 151);
-            this.panelbureau.Name = "panelbureau";
-            this.panelbureau.Size = new System.Drawing.Size(961, 604);
-            this.panelbureau.TabIndex = 2;
-            this.panelbureau.Paint += new System.Windows.Forms.PaintEventHandler(this.panelbureau_Paint);
-            // 
             // btn_connexion
             // 
             this.btn_connexion.Dock = System.Windows.Forms.DockStyle.Top;
@@ -223,11 +190,40 @@ namespace APPGSB
             this.btn_connexion.UseVisualStyleBackColor = true;
             this.btn_connexion.Click += new System.EventHandler(this.btn_connexion_Click);
             // 
+            // panelTitleBar
+            // 
+            this.panelTitleBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.panelTitleBar.Controls.Add(this.lbtitle);
+            this.panelTitleBar.Location = new System.Drawing.Point(490, 0);
+            this.panelTitleBar.Name = "panelTitleBar";
+            this.panelTitleBar.Size = new System.Drawing.Size(1410, 151);
+            this.panelTitleBar.TabIndex = 1;
+            // 
+            // lbtitle
+            // 
+            this.lbtitle.AutoSize = true;
+            this.lbtitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.lbtitle.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbtitle.Location = new System.Drawing.Point(431, 69);
+            this.lbtitle.Name = "lbtitle";
+            this.lbtitle.Size = new System.Drawing.Size(121, 29);
+            this.lbtitle.TabIndex = 2;
+            this.lbtitle.Text = "ACCUEIL";
+            // 
+            // panelbureau
+            // 
+            this.panelbureau.BackColor = System.Drawing.Color.Silver;
+            this.panelbureau.Location = new System.Drawing.Point(490, 151);
+            this.panelbureau.Name = "panelbureau";
+            this.panelbureau.Size = new System.Drawing.Size(1410, 604);
+            this.panelbureau.TabIndex = 2;
+            this.panelbureau.Paint += new System.Windows.Forms.PaintEventHandler(this.panelbureau_Paint);
+            // 
             // Accueil_GSB
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1450, 751);
+            this.ClientSize = new System.Drawing.Size(1899, 751);
             this.Controls.Add(this.panelbureau);
             this.Controls.Add(this.panelTitleBar);
             this.Controls.Add(this.panel1);
