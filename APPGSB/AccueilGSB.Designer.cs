@@ -92,7 +92,7 @@ namespace APPGSB
             this.btn_autoriseparfamille.TabIndex = 6;
             this.btn_autoriseparfamille.Text = "Médicament autorisés par famille";
             this.btn_autoriseparfamille.UseVisualStyleBackColor = true;
-            this.btn_autoriseparfamille.Click += new System.EventHandler(this.btn_autoriseparfamille_Click);
+          
             // 
             // btn_worfklow
             // 
@@ -107,7 +107,7 @@ namespace APPGSB
             this.btn_worfklow.TabIndex = 5;
             this.btn_worfklow.Text = "Consultation WorkFlow";
             this.btn_worfklow.UseVisualStyleBackColor = true;
-            this.btn_worfklow.Click += new System.EventHandler(this.btn_worfklow_Click);
+            
             // 
             // btn_ajoutmedicament
             // 
@@ -137,7 +137,7 @@ namespace APPGSB
             this.btn_majetape.TabIndex = 3;
             this.btn_majetape.Text = "Mise à jour étapes normées";
             this.btn_majetape.UseVisualStyleBackColor = true;
-            this.btn_majetape.Click += new System.EventHandler(this.btn_majetape_Click);
+          
             // 
             // btn_saisieetape
             // 
@@ -197,7 +197,7 @@ namespace APPGSB
             this.lbtitle.Size = new System.Drawing.Size(121, 29);
             this.lbtitle.TabIndex = 2;
             this.lbtitle.Text = "ACCUEIL";
-            this.lbtitle.Click += new System.EventHandler(this.lbtitle_Click);
+       
             // 
             // panelbureau
             // 
@@ -206,7 +206,7 @@ namespace APPGSB
             this.panelbureau.Name = "panelbureau";
             this.panelbureau.Size = new System.Drawing.Size(961, 604);
             this.panelbureau.TabIndex = 2;
-            this.panelbureau.Paint += new System.Windows.Forms.PaintEventHandler(this.panelbureau_Paint);
+     
             // 
             // btn_connexion
             // 

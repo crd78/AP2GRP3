@@ -42,3 +42,20 @@ C:\Users\lemercij\OneDrive - Établissement Saint-Adjutor\Documents\BTS2\AP\Work
 C:\Users\lemercij\OneDrive - Établissement Saint-Adjutor\Documents\BTS2\AP\WorkSpace\Nouveau dossier\AP2GRP3\APPGSB\obj\Debug\APPGSB.csproj.CoreCompileInputs.cache
 C:\Users\lemercij\OneDrive - Établissement Saint-Adjutor\Documents\BTS2\AP\WorkSpace\Nouveau dossier\AP2GRP3\APPGSB\obj\Debug\APPGSB.exe
 C:\Users\lemercij\OneDrive - Établissement Saint-Adjutor\Documents\BTS2\AP\WorkSpace\Nouveau dossier\AP2GRP3\APPGSB\obj\Debug\APPGSB.pdb
+C:\Users\rodriguc\AP2GRP3\APPGSB\obj\Debug\APPGSB.csproj.AssemblyReference.cache
+C:\Users\rodriguc\AP2GRP3\APPGSB\obj\Debug\APPGSB.Accueil_GSB.resources
+C:\Users\rodriguc\AP2GRP3\APPGSB\obj\Debug\APPGSB.Accueil.resources
+C:\Users\rodriguc\AP2GRP3\APPGSB\obj\Debug\APPGSB.AjoutMedic.resources
+C:\Users\rodriguc\AP2GRP3\APPGSB\obj\Debug\APPGSB.Bienvenue.resources
+C:\Users\rodriguc\AP2GRP3\APPGSB\obj\Debug\APPGSB.FrmConnexioncs.resources
+C:\Users\rodriguc\AP2GRP3\APPGSB\obj\Debug\APPGSB.frmSaisieDecision.resources
+C:\Users\rodriguc\AP2GRP3\APPGSB\obj\Debug\APPGSB.medicEnVerif.resources
+C:\Users\rodriguc\AP2GRP3\APPGSB\obj\Debug\APPGSB.Properties.Resources.resources
+C:\Users\rodriguc\AP2GRP3\APPGSB\obj\Debug\APPGSB.saisieetape.resources
+C:\Users\rodriguc\AP2GRP3\APPGSB\obj\Debug\APPGSB.csproj.GenerateResource.cache
+C:\Users\rodriguc\AP2GRP3\APPGSB\obj\Debug\APPGSB.csproj.CoreCompileInputs.cache
+C:\Users\rodriguc\AP2GRP3\APPGSB\obj\Debug\APPGSB.exe
+C:\Users\rodriguc\AP2GRP3\APPGSB\obj\Debug\APPGSB.pdb
+C:\Users\rodriguc\AP2GRP3\APPGSB\bin\Debug\APPGSB.exe.config
+C:\Users\rodriguc\AP2GRP3\APPGSB\bin\Debug\APPGSB.exe
+C:\Users\rodriguc\AP2GRP3\APPGSB\bin\Debug\APPGSB.pdb

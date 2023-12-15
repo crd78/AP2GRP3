@@ -13,9 +13,7 @@ namespace APPGSB
     public partial class Accueil_GSB : Form
     {
         //Champ
-        private Button currentButton;
-        private Random random;
-        private int tempIndex;
+    
 
         public Accueil_GSB()
         {
@@ -45,14 +43,10 @@ namespace APPGSB
 
         private void btn_saisieetape_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new saisieetape(), sender);
+            OpenChildForm(new frmSaisieDecision(), sender);
         }
 
-        private void btn_majetape_Click(object sender, EventArgs e)
-        {
-            OpenChildForm(new etapenormee(), sender);
-
-        }
+       
 
         private void btn_ajoutmedicament_Click(object sender, EventArgs e)
         {
@@ -60,35 +54,21 @@ namespace APPGSB
 
         }
 
-        private void btn_worfklow_Click(object sender, EventArgs e)
-        {
-            OpenChildForm(new WorkFlow(), sender);
-        }
-
-        private void btn_autoriseparfamille_Click(object sender, EventArgs e)
-        {
-            OpenChildForm(new medicautorise(), sender);
-        }
+    
+     
 
         private void btn_encoursdevlidation_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new nbmedicament(), sender);
+            OpenChildForm(new medicEnVerif(), sender);
 
         }
 
-        private void panelbureau_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void lbtitle_Click(object sender, EventArgs e)
-        {
-
-        }
+       
+      
 
         private void btn_connexion_Click(object sender, EventArgs e)
         {
-
+            OpenChildForm(new FrmConnexioncs(), sender);
         }
     }
 }

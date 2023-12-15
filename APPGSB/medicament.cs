@@ -17,7 +17,7 @@ namespace APPGSB
         public int prix { get; set; }
         public string amm { get; set; }
         public string etp_num { get; set; }
-        public List<Workflow> lesWorkflows { get; set; }
+       
      
         public medicament(string depotLegal, string nomCommercial, string codeFamille, string composition, string effets, string contreIndication, string amm, string etp_num)
         {
