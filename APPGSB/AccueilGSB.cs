@@ -79,7 +79,7 @@ namespace APPGSB
 
         private void btn_encoursdevlidation_Click(object sender, EventArgs e)
         {
-
+            OpenChildForm(new medicEnVerif(), sender);
         }
 
         private void panelbureau_Paint(object sender, PaintEventArgs e)

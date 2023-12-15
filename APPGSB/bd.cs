@@ -74,7 +74,7 @@ namespace SQL_Server_Test
                 string libelle = SqlExec["ETP_LIBELLE"].ToString();
                 string norme = SqlExec["ETP_NORME"].ToString();
                 string date = SqlExec["ETP_DATE_NORME"].ToString();
-                int estNormee = int.Parse(SqlExec["estNormee"].ToString());
+                string estNormee = SqlExec["estNormee"].ToString();
 
                 etapes etape = new etapes(id, libelle, norme,date,estNormee) ;
 
@@ -135,11 +135,28 @@ namespace SQL_Server_Test
             {
                 string depotlegal = SqlExec["MED_DEPOTLEGAL"].ToString();
                 string nomcommercial = SqlExec["MED_NOMCOMMERCIAL"].ToString();
-                string etape = SqlExec["ETP_NUM"].ToString();
-                string libetape = SqlExec["ETP_LIBELLE"].ToString();
-                string libdecision = SqlExec["DCS_LIBELLE"].ToString();
+                string fam_code = SqlExec["FAM_CODE"].ToString();
+                string composition = SqlExec["MED_COMPOSITION"].ToString();
+                string effets = SqlExec["MED_EFFETS"].ToString();
+                string contreindic = SqlExec["MED_CONTREINDIC"].ToString();
+                string amm = SqlExec["MED_AMM"].ToString();
+                string etp_num = SqlExec["MED_ETP_NUM"].ToString();
+                int etp_num_int = int.Parse(etp_num);
                 string normeetape = SqlExec["ETP_NORME"].ToString();
                 string dateetapenorme = SqlExec["ETP_DATE_NORME"].ToString();
+                string libelleFamille = SqlExec["FAM_LIBELLE"].ToString();
+                string etp_libelle = SqlExec["ETP_LIBELLE"].ToString();
+                string estNormee = SqlExec["estNormee"].ToString();
+                string libelledecision = SqlExec["DCS_LIBELLE"].ToString();
+                string libelleid = SqlExec["DCS_ID"].ToString();
+                int libid = int.Parse(libelleid);
+
+                famille laFamille = new famille(fam_code, libelleFamille);
+                medicament leMedicament = new medicament(depotlegal, nomcommercial, fam_code, composition, effets, contreindic, amm, etp_num);
+                globale.lesMedicaments.Add(depotlegal, leMedicament);
+                etapes leEtape = new etapes(etp_num_int,etp_libelle, normeetape, dateetapenorme,estNormee);
+                decisions laDeision = new decisions(libid,libelledecision);
+
             }
 
 

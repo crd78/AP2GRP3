@@ -12,8 +12,8 @@ namespace APPGSB
         public string etp_libelle { get; set; }
         public string etp_norme { get; set; }
         public string etp_date_norme { get; set; }
-        public int estNormee { get; set; }
-        public etapes(int etp_num, string etp_libelle, string etp_norme, string etp_date_norme, int estNormee)
+        public string estNormee { get; set; }
+        public etapes(int etp_num, string etp_libelle, string etp_norme, string etp_date_norme, string estNormee)
         {
             this.etp_num = etp_num;
             this.etp_libelle = etp_libelle;
