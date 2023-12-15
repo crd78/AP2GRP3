@@ -1,4 +1,4 @@
-﻿using SQL_Server_Test;
+using SQL_Server_Test;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -27,8 +27,8 @@ namespace APPGSB
         private void button1_Click(object sender, EventArgs e)
         {
             //ouvre l'accueil
-            Accueil accueilForm = new Accueil();
-            accueilForm.Show();
+            Accueil_GSB AccueilGSB = new Accueil_GSB();
+            AccueilGSB.Show();
             this.Hide();
         }
 
