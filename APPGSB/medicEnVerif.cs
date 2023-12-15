@@ -29,10 +29,11 @@ namespace APPGSB
             // Ajoutez chaque médicament à la ListView
             foreach (medicament leMedic in globale.lesMedicaments.Values)
             {
+                string libelleFamille = globale.lesFamilles[leMedic.codeFamille].getLibelle();
                 ListViewItem uneLigne = new ListViewItem();
                 uneLigne.Text = leMedic.depotLegal;
                 uneLigne.SubItems.Add(leMedic.nomCommercial);
-                uneLigne.SubItems.Add(leMedic.codeFamille);
+                uneLigne.SubItems.Add(libelleFamille);
 
                 listView1.Items.Add(uneLigne);
             }
