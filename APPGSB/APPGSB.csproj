@@ -67,12 +67,6 @@
     <Compile Include="AccueilGSB.Designer.cs">
       <DependentUpon>AccueilGSB.cs</DependentUpon>
     </Compile>
-    <Compile Include="Accueil.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Accueil.Designer.cs">
-      <DependentUpon>Accueil.cs</DependentUpon>
-    </Compile>
     <Compile Include="AjoutMedic.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -115,9 +109,6 @@
     <Compile Include="User.cs" />
     <EmbeddedResource Include="AccueilGSB.resx">
       <DependentUpon>AccueilGSB.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Accueil.resx">
-      <DependentUpon>Accueil.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AjoutMedic.resx">
       <DependentUpon>AjoutMedic.cs</DependentUpon>
